@@ -1,0 +1,12 @@
++-------------+--------------+
+| nama_barang | warna        |
++-------------+--------------+
+| apel        | merah        |
+| bayam       | hijau        |
+| daun bawang | hijau        |
+| duku        | kuning pekat |
+| durian      | kuning       |
+| gandum      | coklat       |
+| jambu air   | merah        |
+| jeruk       | oranye       |
++-------------+--------------+

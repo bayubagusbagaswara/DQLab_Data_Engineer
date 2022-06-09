@@ -1,0 +1,12 @@
++-----------+----------+
+| nama_item | kategori |
++-----------+----------+
+| bayam     | sayuran  |
+| belimbing | buah     |
+| duku      | buah     |
+| durian    | buah     |
+| gandum    | buah     |
+| jamur     | sayuran  |
+| jambu air | buah     |
+| jeruk     | buah     |
++-----------+----------+

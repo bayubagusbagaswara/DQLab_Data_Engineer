@@ -41,3 +41,27 @@ Struktur code pada Python relatif sangat sederhana, tidak serumit seperti pada J
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
 | [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python%20Fundamental%20for%20Data%20Science/1-Whats-Python/1-code-hello-world/HelloWorld.py) | Code Hello World |
+
+# Comment Pada Python
+Ketika menuliskan suatu kode program diperlukan sebuah dokumentasi. Mengapa dokumentasi ini sangat penting? Sederhananya, jika kode yang telah dituliskan memiliki ribuan baris dan ada beberapa bagian yang perlu diperbaiki karena suatu alasan, para penulis kode cukup melihat dokumentasinya saja. Penulis kode tidak perlu membaca dan memahami seluruh isi code dari awal. Nah, salah satu metode yang biasa digunakan adalah menggunakan comment. Sama dengan Bahasa R, python juga menggunakan tanda “#” untuk membuat comment pada script.
+
+Perlu diketahui, comment tidak akan pernah tampil pada hasil melalui console atau GUI. Fungsi comment dapat dikatakan sebagai sebuah penanda. Kenapa bab ini diberikan diawal? Harapannya yaitu agar kamu memiliki pengetahuan dan langsung mempraktikkannya ketika kamu menuliskan baris kode program berikut dengan dokumentasinya. 
+
+Dokumentasi kode juga berlaku untuk variable karena diperlukan suatu keterangan bahwa variable berfungsi sebagai apa dan isinya apa. Maka dari itu jangan lupa untuk membuat dan memberi comment untuk setiap kode program yang telah kamu tuliskan!
+
+| Code 	|               Title              	|
+|:----:	|:--------------------------------:	|
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python%20Fundamental%20for%20Data%20Science/1-Whats-Python/2-comment-pada-python/Comment.py) | Comment Pada Python |
+
+# Variable, Basic Data Type and Print
+Penggunaan variabel atau suatu objek yang bisa merepresentasikan sebuah nilai atau value sangat penting dalam bahasa pemrograman. Selain itu mempermudah dalam membaca source code, pemberian variable yang efisien juga akan membuat code berjalan optimal dan dinamis. Pada sesi kali ini kita akan belajar bagaimana cara inisialisasi variable dalam beberapa data type dan menampilkannya (print).
+
+| Tipe Data | Contoh | Penjelasan |
+|:---------:|:------:|:----------:|
+| Boolean | True atau False | Menyatakan benar True yang bernilai 1, atau salah False yang bernilai 0 |
+| String | "Ayo belajar Python" | Menyatakan karakter/kalimat bisa berupa huruf angka, dll (diapit tanda " atau ') |
+| Integer | 25 atau 1209 | Menyatakan bilangan bulat |
+| Float | 3.14 atau 0.99| Menyatakan bilangan yang mempunyai koma |
+| List | ['xyz', 786, 2.23] | Data untaian yang menyimpan berbagai tipe data dan isinya bisa diubah-ubah |
+| Tuple | ('xyz', 768, 2.23) | Data untaian yang menyimpan berbagai tipe data tapi isinya tidak bisa diubah |
+| Dictionary | {'nama': 'adi','id':2} | Data untaian yang menyimpan berbagai tipe data berupa pasangan penunjuk dan nilai |

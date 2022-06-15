@@ -65,3 +65,9 @@ Penggunaan variabel atau suatu objek yang bisa merepresentasikan sebuah nilai at
 | List | ['xyz', 786, 2.23] | Data untaian yang menyimpan berbagai tipe data dan isinya bisa diubah-ubah |
 | Tuple | ('xyz', 768, 2.23) | Data untaian yang menyimpan berbagai tipe data tapi isinya tidak bisa diubah |
 | Dictionary | {'nama': 'adi','id':2} | Data untaian yang menyimpan berbagai tipe data berupa pasangan penunjuk dan nilai |
+
+# Printing Data Type
+
+| Code 	|               Title              	|
+|:----:	|:--------------------------------:	|
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python%20Fundamental%20for%20Data%20Science/1-Whats-Python/3-printing-data-type/PrintingDataType.py) | Tugas Praktek Printing Data Type |

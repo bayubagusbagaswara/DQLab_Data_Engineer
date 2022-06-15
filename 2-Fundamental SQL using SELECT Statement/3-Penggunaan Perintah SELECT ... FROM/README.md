@@ -54,4 +54,23 @@ Selain pembatasan kolom, aku bisa membatasi jumlah baris data yang diambil. Sepe
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental%20SQL%20using%20SELECT%20Statement/3-Penggunaan%20Perintah%20SELECT%20...%20FROM/3-mengambil-lebih-dari-satu-kolom.sql) | Mengambil Lebih dari Satu Kolom |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental%20SQL%20using%20SELECT%20Statement/3-Penggunaan%20Perintah%20SELECT%20...%20FROM/4-membatasi-pengambilan-jumlah-row-data.sql) | Membatasi Pengambilan Jumlah Row Data |
+
+![Quiz](img/quiz-3.PNG)
+
+# Penggunaan SELECT DISTINCT statement
+
+Untuk menghilangkan data duplikasi, aku bisa menggunakan SELECT DISTINCT statement. Dengan SELECT DISTINCT, data yang sama atau duplikat akan dieliminasi dan akan ditampilkan data yang unik saja.
+
+![Distinct](img/distinct.png)
+
+|Code 	|               Title              	|
+|:----:	|:--------------------------------:	|
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental%20SQL%20using%20SELECT%20Statement/3-Penggunaan%20Perintah%20SELECT%20...%20FROM/5-select-distinct.sql) | Select Distinct |
+
+# Kesimpulan
+Aku mengambil catatanku, dan mulai menulis apa yang aku pelajari, sebelum aku melanjutkan belajarku:
+
+- Perintah SELECT dapat digunakan untuk menentukan apa saja kolom yang akan diambil dengan menuliskan nama-nama kolom yang diinginkan menggunakan pemisah tanda koma.
+- Perintah SELECT juga dapat digunakan untuk membatasi jumlah data yang dikeluarkan. Namun untuk berbagai produk bisa berbeda penulisannya. MySQL menggunakan LIMIT untuk tujuan tersebut.
+- Perintah SELECT DISTINCT dapat digunakan untuk menghilangkan duplikasi baris dalam tabel dan hanya menampilkan baris data yang unik tanpa duplikasi.

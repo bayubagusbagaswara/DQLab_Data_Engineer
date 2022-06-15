@@ -19,5 +19,5 @@ Python sendiri berguna dalam berbagai aspek :
 
 Kepopuleran python sendiri sekarang ada pada track data science. Banyaknya library dan framework seperti scikit-learn, tensorflow/keras, pytorch membuat para pecinta data mining, AI, dan Machine learning lebih menyukai python untuk pengembangan riset dan penelitian mereka. Berkembangnya dunia data science didunia ini juga salah satu alasan kenapa python menjadi begitu populer sekarang.
 
-[Manfaat_Python](../1-Whats-Python/img/1-manfaat-python.PNG)
+![Manfaat_Python](img/1-manfaat-python.PNG)
 

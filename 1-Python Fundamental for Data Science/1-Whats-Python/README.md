@@ -38,3 +38,4 @@ Beberapa hal yang menjadi kelebihan dari python:
 # Code Hello World
 Struktur code pada Python relatif sangat sederhana, tidak serumit seperti pada Java ataupun C. Selain karena memang mudah dibaca, python juga termasuk pada high level programming language seperti yang telah dibahas sebelumnya
 
+[📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python%20Fundamental%20for%20Data%20Science/1-Whats-Python/1-code-hello-world/HelloWorld.py) 

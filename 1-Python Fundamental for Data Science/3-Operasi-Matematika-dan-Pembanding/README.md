@@ -43,4 +43,4 @@ Note: Kamu bisa menggunakan materi-materi sebelumnya dengan menggabungkannya di 
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python%20Fundamental%20for%20Data%20Science/3-Operasi-Matematika-dan-Pembanding/3-tugas-praktek/MidPraktek.py) | Operasi Modulus |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python%20Fundamental%20for%20Data%20Science/3-Operasi-Matematika-dan-Pembanding/3-tugas-praktek/MidPraktek.py) | Tugas Praktik |

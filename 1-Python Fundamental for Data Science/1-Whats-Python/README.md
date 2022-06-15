@@ -21,3 +21,20 @@ Kepopuleran python sendiri sekarang ada pada track data science. Banyaknya libra
 
 ![Manfaat_Python](img/1-manfaat-python.PNG)
 
+# Mengapa Python Populer
+Meningkatnya minat masyarakat dunia terhadap data science menyebabkan penggunaan Python menjadi sangat populer. Python merupakan salah satu programming language yang cocok untuk scripting dan bisa berjalan dalam berbagai platform OS dan IoT. Meskipun tergolong sebagai high level programming language, python sangat mudah dimengerti karena syntax-nya yang sederhana. Jika diperhatikan, python sangat mirip penulisannya dengan bahasa Inggris.
+
+Python dapat digunakan dalam paradigma pemrograman fungsional dan berorientasi object (OOP - object oriented programming). Berbeda dengan C, C++, dan Java yang berjenis kompilasi, Python merupakan bahasa pemrograman berjenis interpretasi yang artinya code yang sudah ditulis bisa dijalankan sesegera mungkin.
+
+Beberapa hal yang menjadi kelebihan dari python:
+
+- Python dirancang untuk mudah ditulis dan dibaca, serta memiliki beberapa kesamaan dengan bahasa Inggris dengan pengaruh dari matematika.
+- Python menggunakan baris baru untuk mengakhiri perintah, dibandingkan dengan bahasa pemrograman lain yang sering menggunakan titik koma atau tanda kurung.
+- Python bergantung pada indentasi, menggunakan spasi, untuk mendefinisikan ruang lingkup; seperti lingkup loop, fungsi, dan kelas. Bahasa pemrograman lainnya sering menggunakan kurung kurawal untuk tujuan ini
+- Jika kalian mencari di internet tentang programming python, biasanya akan ada 2 jenis python, python 2 dan python 3. Versi utama Python yang paling baru adalah Python 3 dan digunakan dalam platform academy ini. Saat ini, python 2 sudah memasuki end-of-life pada Januari 2020.
+
+![Python_Populer](img/2-python-populer.PNG)
+
+# Code Hello World
+Struktur code pada Python relatif sangat sederhana, tidak serumit seperti pada Java ataupun C. Selain karena memang mudah dibaca, python juga termasuk pada high level programming language seperti yang telah dibahas sebelumnya
+

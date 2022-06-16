@@ -1,5 +1,3 @@
-# Setelah kita mengeteahui variable mana saja yang ada nilai tidak standard, maka kita standardkan dengan pola terbanyak nya, dengan syarat tanpa mengubah maknanya. Contoh : Iya -> Yes Kemudian liat kembali unique values dari masing-masing variable yang sudah di ubah. Gunakan fungsi replace() untuk menstandardkan nilai.
-
 import pandas as pd
 df_load = pd.read_csv(
     'https://storage.googleapis.com/dqlab-dataset/dqlab_telco.csv')

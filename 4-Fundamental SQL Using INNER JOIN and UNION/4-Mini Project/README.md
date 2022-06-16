@@ -26,6 +26,7 @@ Buatlah query menggunakan tabel ms_pelanggan dan tr_penjualan untuk mendapatkan 
 NB: Gunakan SELECT DISTINCT untuk menghilangkan duplikasi, jika diperlukan.
 
 Tabel ms_pelanggan
+```bash
 +---------+----------------+---------------------+------------------------------------------+
 | no_urut | kode_pelanggan | nama_customer       | alamat                                   |
 +---------+----------------+---------------------+------------------------------------------+
@@ -42,8 +43,10 @@ Tabel ms_pelanggan
 |      11 | dqlabcust11    | Unang Handoko       | Vila Sempilan, No. 1 - Kota B            |
 |      12 | dqlabcust12    | Tommy Sinaga        | Vila Permata Intan Berkilau, Blok A1/2   |
 +---------+----------------+---------------------+------------------------------------------+
+```
 
 Tabel tr_penjualan
+```bash
 +----------------+----------------+---------+-------------+-------------------------------+------+--------+
 | kode_transaksi | kode_pelanggan | no_urut | kode_produk | nama_produk                   | qty  | harga  |
 +----------------+----------------+---------+-------------+-------------------------------+------+--------+
@@ -63,6 +66,7 @@ Tabel tr_penjualan
 | tr-006         | dqlabcust02    |       1 | prod-05     | Gift Voucher DQLab 250rb      |    4 | 250000 |
 | tr-006         | dqlabcust02    |       2 | prod-08     | Gantungan Kunci DQLab         |    2 |  15800 |
 +----------------+----------------+---------+-------------+-------------------------------+------+--------+
+```
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
@@ -76,7 +80,6 @@ Siapkan hanya data produk dengan harga di bawah 100K untuk kode produk prod-1 sa
 Saat mengecek data produk di database, terdapat 2 tabel yang sama - sama berisi data katalog, yaitu:
 
 Tabel ms_produk_1
-
 ```bash
 +---------+-------------+--------------------------+--------+
 | no_urut | kode_produk | nama_produk              | harga  |
@@ -90,7 +93,6 @@ Tabel ms_produk_1
 ```
 
 Tabel ms_produk_2
-
 ```bash
 +---------+-------------+------------------------------------+-------+
 | no_urut | kode_produk | nama_produk                        | harga |

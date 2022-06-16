@@ -1,10 +1,3 @@
-# Ayo lanjutkan ke langkah berikutnya:
-
-# [7]. Slicing data untuk masing-masing measurement (kolom), misal: kolom order
-
-# [8]. Lakukan resampling pada data tersebut untuk dilakukan perhitungan secara bulanan
-
-# Untuk string direpresentasikan dengan kutip satu, misalnya 'contoh string'.
 import pandas as pd
 import matplotlib.pyplot as plt
 

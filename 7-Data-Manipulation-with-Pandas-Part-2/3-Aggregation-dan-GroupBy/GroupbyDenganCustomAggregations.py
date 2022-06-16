@@ -1,13 +1,9 @@
-# Dengan membuat sebuah Python function (user defined) dapat menggunakan sebagai custom aggregation pada dataframe yang telah di groupby.
-
-# Tugas Praktek:
-
-# Tentukanlah inter quartile range (IQR) pada setiap kelompok data, dan kemudian tampilkanlah 5 data teratas saja.
-
 import pandas as pd
+
 # Load data https://storage.googleapis.com/dqlab-dataset/LO4/global_air_quality_4000rows.csv
 gaq = pd.read_csv(
     'https://storage.googleapis.com/dqlab-dataset/LO4/global_air_quality_4000rows.csv')
+
 # Create variabel pollutant 
 pollutant = gaq[['country', 'city', 'pollutant', 'value']].pivot_table(
     index=['country', 'city'], columns='pollutant').fillna(0)

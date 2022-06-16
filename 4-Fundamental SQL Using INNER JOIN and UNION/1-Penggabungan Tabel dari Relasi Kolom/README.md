@@ -35,7 +35,7 @@ Cobalah ketik query pada code editor untuk melihat keseluruhan isi dari kolom ta
 ![Quiz](img/quiz-1b.PNG)
 
 ![Quiz](img/quiz-2a.PNG)
-![Quiz](img/quiz-2a.PNG)
+![Quiz](img/quiz-2b.PNG)
 
 # Key Columns
 Penjelasan selanjutnya adalah mengenai key columns dan bagaimana penggunaannya dalam menggabungkan kedua tabel.

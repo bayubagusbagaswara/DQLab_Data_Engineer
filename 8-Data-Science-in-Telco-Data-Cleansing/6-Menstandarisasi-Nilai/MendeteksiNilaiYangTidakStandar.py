@@ -1,8 +1,3 @@
-# Mendeteksi apakah ada nilai-nilai dari variable kategorik yang tidak standard. Hal ini biasanya terjadi dikarenakan kesalahan input data. Perbedaan istilah menjadi salah satu faktor yang sering terjadi, untuk itu dibutuhkan standardisasi dari data yang sudah ter-input.
-
-# Gunakan fungsi value_counts() untuk melihat jumlah data unique per variable-nya.
-
-# Adapun potongan dari hasil yang diharapkan adalah sebagai berikut:
 import pandas as pd
 df_load = pd.read_csv(
     'https://storage.googleapis.com/dqlab-dataset/dqlab_telco.csv')

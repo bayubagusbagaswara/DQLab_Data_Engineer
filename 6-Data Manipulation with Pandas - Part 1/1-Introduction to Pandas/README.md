@@ -111,3 +111,92 @@ Tugas Praktek
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
 | [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data%20Manipulation%20with%20Pandas%20-%20Part%201/1-Introduction%20to%20Pandas/4-Atribut-DataFrame-%26-Series-Part2.py) | Atribut Dataframe dan Series |
+
+# Atribut DataFrame & Series - Part 3
+Dataframe dan Series memiliki sangat banyak atribut yang digunakan untuk transformasi data, tetapi ada beberapa attribute yang sering dipakai. Di sini series `number_list` dan data frame `matrix_list` pada subbab sebelumnya digunakan kembali.
+
+8. `Attribute .index`
+
+Attribute `.index` digunakan untuk mencari index/key dari Series atau Dataframe.
+
+![Index](img/index.png)
+
+Output di console untuk penggunaan attribute .index ini adalah:
+
+![Hasil_Index](img/hasil-index.png)
+
+9. `Attribute .columns`
+
+Attribute `.columns` digunakan untuk mengetahui apa saja kolom yang tersedia di dataframe tersebut (hanya digunakan untuk dataframe saja). 
+
+![Columns](img/columns.png)
+
+Output di console untuk penggunaan attribute .columns ini adalah:
+
+![Hasil_columns](img/hasil-columns.png)
+
+10. `Attribute .loc`
+
+Attribute `.loc` digunakan slice dataframe atau series berdasarkan nama kolom dan/atau nama index.
+
+![Loc](img/loc.png)
+
+Output di console untuk penggunaan attribute .loc[] ini adalah:
+
+![Hasil_Loc](img/hasil-loc.png)
+
+11. `Attribute .iloc`
+
+Attribute .iloc digunakan untuk slice dataframe atau series berdasarkan index kolom dan/atau index.
+
+![Iloc](img/iloc.png)
+
+Output di console untuk penggunaan attribute .iloc[] ini adalah:
+
+![Hasil_iloc](img/hasil-iloc.png)
+
+Tugas praktek:
+
+| Code  |               Title              	|
+|:----:	|:--------------------------------:	|
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data%20Manipulation%20with%20Pandas%20-%20Part%201/1-Introduction%20to%20Pandas/5-Atribut-DataFrame-%26-Series-Part3.py) | Atribut Dataframe dan Series |
+
+
+![Quiz](img/quiz-1a.PNG)
+![Quiz](img/quiz-1b.PNG)
+
+# Creating Series & Dataframe from List
+Untuk membuat Series atau Dataframe bisa dari berbagai macam tipe data container/mapping di python, seperti list dan dictionary, maupun dari numpy array.
+
+Pada sub bagian ini, kamu akan membuat Series dan Dataframe yang bersumber dari list. Sekadar meninjau bahwa list merupakan sebuah kumpulan data berbagai macam tipe data yang mutable (dapat diganti).
+
+Tugas Praktek!
+
+| Code  |               Title              	|
+|:----:	|:--------------------------------:	|
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data%20Manipulation%20with%20Pandas%20-%20Part%201/1-Introduction%20to%20Pandas/7-Creating-Series-%26-Dataframe-from-List.py) | Creating Series & DataFrame from List |
+
+# Creating Series & Dataframe from Dictionary
+Untuk membuat Series atau Dataframe bisa dari berbagai macam tipe data container/mapping di python, seperti list dan dictionary, maupun dari numpy array.
+
+Pada sub bagian ini, akan membuat Series dan Dataframe yang bersumber dari dictionary. Sekadar meninjau bahwa, dictionary merupakan kumpulan data yang strukturnya terdiri dari key dan value.
+
+Tugas Praktek!
+
+| Code  |               Title              	|
+|:----:	|:--------------------------------:	|
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data%20Manipulation%20with%20Pandas%20-%20Part%201/1-Introduction%20to%20Pandas/8-Creating-Series-%26-Dataframe-from-Dictionary.py) | Creating Series & DataFrame from Dictionary |
+
+
+# Creating Series & Dataframe from Numpy Array
+Untuk membuat Series atau Dataframe bisa dari berbagai macam tipe data container/mapping di python, seperti list dan dictionary, maupun dari numpy array.
+
+Pada sub bagian ini, akan membuat Series dan Dataframe yang bersumber dari numpy array. Sekadar meninjau bahwa, numpy array kumpulan data yang terdiri atas berbagai macam tipe data, mutable, tapi dibungkus dalam array oleh library Numpy.
+
+Tugas Praktek!
+
+| Code  |               Title              	|
+|:----:	|:--------------------------------:	|
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data%20Manipulation%20with%20Pandas%20-%20Part%201/1-Introduction%20to%20Pandas/9-Creating%20Series-%26-Dataframe-from-Numpy-Array.py) | Creating Series & DataFrame from Numpy Array |
+
+![Quiz_2](img/quiz-2.PNG)

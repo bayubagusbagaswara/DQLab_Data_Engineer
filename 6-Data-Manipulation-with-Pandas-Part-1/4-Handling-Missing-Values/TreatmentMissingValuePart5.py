@@ -1,10 +1,6 @@
-# Treatment untuk Missing Value - Part 5
-# Di bagian ini akan menggunakan teknik interpolasi dalam mengisi nilai missing value pada suatu dataset.
-
-# Data yang menggunakan interpolasi untuk mengisi data yang hilang adalah time series data, yang secara default akan diisi dengan interpolasi linear.
-
 import numpy as np
 import pandas as pd
+
 # Data
 ts = pd.Series({
     "2020-01-01": 9,
@@ -22,7 +18,9 @@ ts = pd.Series({
     "2020-01-28": np.nan,
     "2020-01-30": np.nan
 })
+
 # Isi missing value menggunakan interpolasi linier
 ts = ts.interpolate()
+
 # Cetak time series setelah interpolasi linier
 print("Setelah diisi missing valuenya:\n", ts)

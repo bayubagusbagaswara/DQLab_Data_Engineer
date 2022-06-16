@@ -53,3 +53,37 @@ Jawaban :
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
 | [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data-Manipulation-with-Pandas-Part-1/5-Mini-Project/Project.py) | Project |
+
+# Evaluasi Andra untuk Project yang Telah Disubmit
+
+Aku baru saja mengumpulkan hasil kerja dari proyek pertamaku pada Andra. Lebih cepat satu hari dari tenggat waktu yang diberikan, semoga hasilnya juga memuaskan! Doaku dalam hati.
+
+“Aksara, saya baru saja meninjau pekerjaanmu. Saya ada pertanyaan,” ujar Andra yang lagi-lagi sudah ada di sebelahku. Sepertinya Andra punya kemampuan teleportasi yang bisa muncul tiba-tiba.
+
+“Ada yang salah, Ndra?”
+
+“Saya ingin tahu alasanmu mengapa di langkah ketiga, kamu cari tahu terlebih dulu nilai null. Mengapa tidak kamu convert to string secara langsung?”
+
+“Soalnya, kalau aku cek di df.info()nya masih ada yang kosong di kolom ‘product_value’, Ndra.  Kalau aku langsung convert to string, nantinya value NaN akan berubah menjadi string ‘nan’, kemudian ketika aku pad 0 di depan dan concat dengan char ‘P’, hasilnya akan menjadi ‘P0nan’ yang aneh sekali, Ndra,” jelasku.
+
+“Oke. Satu lagi pertanyaanku, Aksara. Kenapa kamu memakai langkah ke-4? Mengapa tidak langsung menggunakan kolom date yang sudah ada. Bukankah format waktunya sudah ideal?”
+
+Aku merasa tanya jawab ini tampak seperti ujian apakah aku benar-benar memahami cara kerja Pandas. Aku memantapkan diri untuk memberi jawaban, “Tidak semua format datetime yang ideal pada umumnya akan ideal di dalam pandas environment. Seenggaknya harus translate dulu menjadi format yang ideal di dalam pandas sehingga pandas bisa mengenali.”
+
+“Great! Untuk materi dan proyek ini, kamu dinyatakan lulus, Aksara.”
+
+Mendengar apresiasi ini langsung dari Andra membuat hatiku hangat. Senang sekali rasanya!
+
+# Hasil Belajarku :)
+
+Walau harus bekerja keras, aku cukup puas dengan hasil kerjaku hari ini. Aku memandangi kode final yang sudah selesai kukerjakan. Diam-diam ada perasaan bangga menyelip di benakku! YES!
+
+Akhirnya, aku telah menyelesaikan modul Data Manipulation with Pandas - Part 1. Materi-materi yang telah kupelajari dan praktikkan dalam modul ini aku telah mendapatkan pengetahuan (knowledge) dan praktek (skill) untuk:
+    - Memahami library Pandas dan interaksinya dengan numpy
+    - Memahami dan mempraktekkkan bagaimana membuat series dan dataframe pada pandas dari berbagai tipe data seperti list, list of list, dict, ataupun numpy array
+    - Memahami dan mempraktekkkan bagaimana membaca dataset dari berbagai format standar seperti csv, tsc, excel, json, sql sehingga dapat dijadikan pandas dataframe/series serta bagaimana cara menyimpannya ke format standar dataset.
+    - Mampu memahami dan mempraktikkan proses indexing, transformasi, dan slicing pada dataframe
+    - Mampu memahami dan mempraktikkan bagaimana cara melakukan handle missing value pada suatu dataframe
+    - Latihan dalam mengerjakan project bisnis sederhana menggunakan pandas
+
+Semangat!

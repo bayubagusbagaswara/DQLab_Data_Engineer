@@ -1,9 +1,3 @@
-# Mendeteksi pencilan dari suatu nilai(outlier) salah satunya bisa melihat plot dari data tersebut menggunakan boxplot. Boxplot merupakan ringkasan distribusi sampel yang disajikan secara grafis yang bisa menggambarkan bentuk distribusi data(skewness), ukuran tendensi sentral dan ukuran penyebaran(keragaman). Berikut adalah tampilan umum dari boxplot dalam merepresentasikan outliers.
-
-# Penggunaan fungsi describe() pada kolom tenure, MonthlyCharges, dan TotalCharges ditunjukkan sebagai berikut.
-
-# Melalui fungsi describe() ini kita hanya memperoleh statistik deskriptif ketiga kolom ini. Agar outlier pada ketiga kolom ini dapat dideteksi maka kamu diminta untuk memvisualisasikannya menggunakan boxplot-nya. Setiap satu boxplot ada di satu canvas figure.
-
 import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd

@@ -1,9 +1,3 @@
-# Setelah kita mengetahui variable mana saja yang terdapat pencilan (outlier), selanjutnya kita akan atasi outlier dengan menggunakan metode interquartile range (IQR). Untuk detail jelasnya, bisa dilihat di ilustrasi di bawah ini:
-
-# Gunakan hasil dari pengolahan di tahap sebelumnya df_load untuk di olah di tahap ini. Gunakan fungsi quantile() untuk melihat quantile tertentu, dan gunakan mask() untuk me-replace nilai. Tentukan:
-# - Nilai minimum dan maximum data di tolerir
-# - Ubah nilai yang di luar range minimum & maximum ke dalam nilai minimum dan maximum
-
 import pandas as pd
 df_load = pd.read_csv(
     'https://storage.googleapis.com/dqlab-dataset/dqlab_telco.csv')

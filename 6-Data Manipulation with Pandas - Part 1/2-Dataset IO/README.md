@@ -157,8 +157,11 @@ dan
 dengan n merupakan jumlah baris yang akan ditampilkan, jika tidak disebutkan n = 5 (sebagai nilai default dari n). 
 
 Tugas Praktek:
+
 Notes :
+
 Dataset : https://storage.googleapis.com/dqlab-dataset/sample_csv.csv
+
 Berdasarkan file sample_csv.csv cetaklah 3 data teratas dan 3 data terbawah. 
 
 | Code  |               Title              	|

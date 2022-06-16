@@ -158,6 +158,9 @@ Jumlah enam puluh empat baris data ini adalah hasil perkalian dari jumlah data d
 
 Aku sudah sampai di penghujung materi dan sejauh ini cukup paham! Hanya butuh satu kuis lagi untuk menuntaskannya. Belajar memang jadi lebih mudah kalau ada Senja, eh maksudku mentor, hehehe.
 
+![Quiz](img/quiz-5a.PNG)
+![Quiz](img/quiz-5b.PNG)
+
 # Kesimpulan
 Bahasa SQL diciptakan untuk sistem database relasional atau RDBMS. Dan aspek relasional inilah yang menjadi fitur paling penting dan unggul, dimana beberapa tabel dapat digabungkan menjadi satu sumber data baru.
 

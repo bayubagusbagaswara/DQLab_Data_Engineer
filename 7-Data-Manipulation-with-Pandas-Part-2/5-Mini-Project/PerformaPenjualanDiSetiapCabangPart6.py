@@ -1,7 +1,3 @@
-# Langkah 7 s/d 9 yang telah dilakukan baru untuk satu measurement yaitu order. Berarti ada empat kali lagi kode seperti ini harus dibuat. Karena struktur code masih sama, dapat menggunakan perulangan sesuai dengan jumlah measurement yaitu 5, sehingga kelima measurement dapat ditampilkan grafiknya dalam satu canvas figure.
-
-# Mari memulai dengan membuat sebuah perulangan dengan dataframe unstack_city_province yang digunakan(hasil dari langkah ke 5 di part 2).
-
 import pandas as pd
 import matplotlib.pyplot as plt
 

@@ -1,13 +1,3 @@
-# Mari lanjutkan ke langkah berikutnya.
-
-# [4]. Filter province yang hanya termasuk 5 provinsi besar di Jawa (DKI Jakarta, Jawa Barat, Jawa Tengah, Jawa Timur, dan Yogyakarta)
-
-# [5]. Mengelompokkan data berdasarkan order_date dan province yang sudah di filter dan menghitung order unique count, customer unique count, product unique count, brand unique count, dan GMV (Gross Merchandise Volume = total_price untuk semua penjualan)
-
-# [6]. Melakukan unstack untuk mendapatkan order_date di bagian baris dan province di bagian column
-
-# Untuk string direpresentasikan dengan kutip satu, misalnya 'contoh string'.
-
 import pandas as pd
 import matplotlib.pyplot as plt
 

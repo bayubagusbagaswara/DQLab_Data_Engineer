@@ -1,8 +1,5 @@
-# Untuk memahami konsep pivot, melt, stack, dan unstack pada Pandas mari persiapkan dataset sederhana terlebih dahulu.
-
-# Tugas Praktek:
-# Carilah unique records/value pada keempat kolom dataframe 'data'.
 import pandas as pd
+
 # Dataframe
 data = pd.DataFrame({
     'kelas': 6*['A'] + 6*['B'],
@@ -10,6 +7,7 @@ data = pd.DataFrame({
     'pelajaran': 6*['math', 'english'],
     'nilai': [90, 60, 70, 85, 50, 60, 100, 40, 95, 80, 60, 45]
 }, columns=['kelas', 'murid', 'pelajaran', 'nilai'])
+
 # Unique value pada setiap kolom data
 for column in data.columns:
     print('Unique value %s: %s' % (column, data[column].unique()))

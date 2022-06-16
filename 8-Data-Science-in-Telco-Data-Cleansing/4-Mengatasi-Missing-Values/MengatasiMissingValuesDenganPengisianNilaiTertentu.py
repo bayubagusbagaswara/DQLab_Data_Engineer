@@ -1,14 +1,3 @@
-# Selain dengan menghapus rows dari data, menangani missing values bisa menggunakan nilai tertentu. Diasumsikan data modeller meminta pengisian missing values dengan kriteria berikut:
-
-# Tenure pihak data modeller meminta setiap rows yang memiliki missing values untuk lama berlangganan di isi dengan 11.
-# Variable yang bersifat numeric selain Tenure di isi dengan median dari masing-masing variable tersebut.
-# Tentukan:
-
-# Apakah masih ada data yang missing values
-# Jumlah missing values dari masing-masing variable
-# Tangani missing values-nya
-
-
 import pandas as pd
 df_load = pd.read_csv(
     'https://storage.googleapis.com/dqlab-dataset/dqlab_telco.csv')

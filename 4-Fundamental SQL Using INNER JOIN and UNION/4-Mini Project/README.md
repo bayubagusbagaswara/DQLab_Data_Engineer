@@ -76,6 +76,8 @@ Siapkan hanya data produk dengan harga di bawah 100K untuk kode produk prod-1 sa
 Saat mengecek data produk di database, terdapat 2 tabel yang sama - sama berisi data katalog, yaitu:
 
 Tabel ms_produk_1
+
+```bash
 +---------+-------------+--------------------------+--------+
 | no_urut | kode_produk | nama_produk              | harga  |
 +---------+-------------+--------------------------+--------+
@@ -85,10 +87,11 @@ Tabel ms_produk_1
 |       4 | prod-04     | Flashdisk DQLab 32 GB    |  40000 |
 |       5 | prod-05     | Gift Voucher DQLab 250rb | 250000 |
 +---------+-------------+--------------------------+--------+
+```
 
 Tabel ms_produk_2
 
-```
+```bash
 +---------+-------------+------------------------------------+-------+
 | no_urut | kode_produk | nama_produk                        | harga |
 +---------+-------------+------------------------------------+-------+

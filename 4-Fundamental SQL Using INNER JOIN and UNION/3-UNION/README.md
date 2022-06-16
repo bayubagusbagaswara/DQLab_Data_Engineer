@@ -23,6 +23,7 @@ Aku sedang mengerjakan kuis-kuis kecil ketika Senja datang membawa dua gelas min
 # Tabel yang digunakan
 
 Tabel_A
+```bash
 +----------------+----------------+---------+-------------+-------------------------------+------+--------+--------+
 | kode_transaksi | kode_pelanggan | no_urut | kode_produk | nama_produk                   | qty  | harga  | total  |
 +----------------+----------------+---------+-------------+-------------------------------+------+--------+--------+
@@ -35,8 +36,10 @@ Tabel_A
 | tr-002         | dqlabcust01    |       3 | prod-07     | Tas Travel Organizer DQLab    |    1 |  48000 |  48000 |
 | tr-003         | dqlabcust03    |       1 | prod-02     | Flashdisk DQLab 64 GB         |    2 |  55000 | 110000 |
 +----------------+----------------+---------+-------------+-------------------------------+------+--------+--------+
+```
 
 Table_B
+```bash
 +----------------+----------------+---------+-------------+-------------------------------+------+--------+---------+
 | kode_transaksi | kode_pelanggan | no_urut | kode_produk | nama_produk                   | qty  | harga  | total   |
 +----------------+----------------+---------+-------------+-------------------------------+------+--------+---------+
@@ -48,6 +51,7 @@ Table_B
 | tr-006         | dqlabcust02    |       1 | prod-05     | Gift Voucher DQLab 250rb      |    4 | 250000 | 1000000 |
 | tr-006         | dqlabcust02    |       2 | prod-08     | Gantungan Kunci DQLab         |    2 |  15800 |   31600 |
 +----------------+----------------+---------+-------------+-------------------------------+------+--------+---------+
+```
 
 # Penggabungan hasil SELECT secara “Vertikal”
 “Untuk kasus seperti ini kita perlu menggunakan metode UNION agar kedua tabel tadi menjadi satu tabel,” jelas Senja.

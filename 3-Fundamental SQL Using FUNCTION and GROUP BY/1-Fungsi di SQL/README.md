@@ -35,4 +35,65 @@ FROM TableName;
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/3-Fundamental%20SQL%20Using%20FUNCTION%20and%20GROUP%20BY/1-Fungsi%20di%20SQL/1-Fungsi-ABS().sql) | Operand And |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/3-Fundamental%20SQL%20Using%20FUNCTION%20and%20GROUP%20BY/1-Fungsi%20di%20SQL/1-Fungsi-ABS.sql) | Fungsi ABS |
+
+# Fungsi Skalar Matematika - CEILING()
+
+Fungsi CEILING()
+
+Syntax: 
+```bash
+SELECT CEILING(ColumnName)  
+FROM TableName; 
+```
+
+|Code 	|               Title              	|
+|:----:	|:--------------------------------:	|
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/3-Fundamental%20SQL%20Using%20FUNCTION%20and%20GROUP%20BY/1-Fungsi%20di%20SQL/2-Fungsi-CEILING.sql) | Fungsi CEILING |
+
+# Fungsi Skalar Matematika - FLOOR()
+Fungsi FLOOR()
+
+Syntax: 
+```bash
+SELECT FLOOR(ColumnName)  
+FROM TableName;
+```
+
+|Code 	|               Title              	|
+|:----:	|:--------------------------------:	|
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/3-Fundamental%20SQL%20Using%20FUNCTION%20and%20GROUP%20BY/1-Fungsi%20di%20SQL/3-Fungsi-FLOOR.sql) | Fungsi FLOOR |
+
+# Fungsi Skalar Matematika - ROUND()
+Fungsi ROUND()
+
+Syntax: 
+```bash
+SELECT ROUND(ColumnName)  
+FROM TableName;
+```
+
+ |Code 	|               Title              	|
+|:----:	|:--------------------------------:	|
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/3-Fundamental%20SQL%20Using%20FUNCTION%20and%20GROUP%20BY/1-Fungsi%20di%20SQL/4-Fungsi-ROUND.sql) | Fungsi ROUND |
+
+# Fungsi Skalar Matematika - SQRT( )
+Fungsi SQRT()
+
+Syntax: 
+```bash
+SELECT SQRT(ColumnName)  
+FROM TableName; 
+```
+
+ |Code 	|               Title              	|
+|:----:	|:--------------------------------:	|
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/3-Fundamental%20SQL%20Using%20FUNCTION%20and%20GROUP%20BY/1-Fungsi%20di%20SQL/5-Fungsi-SQRT.sql) | Fungsi SQRT |
+
+# Tugas Praktek
+Tugas:
+Gunakan fungsi MOD() untuk menghitung nilai sisa jika nilai Semester1 dibagi 2 dan fungsi EXP() untuk menghitung nilai eksponensial dari nilai MarkGrowth. Gunakan kedua fungsi tersebut dalam satu SELECT-Statement. 
+
+ |Code 	|               Title              	|
+|:----:	|:--------------------------------:	|
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/3-Fundamental%20SQL%20Using%20FUNCTION%20and%20GROUP%20BY/1-Fungsi%20di%20SQL/6-tugas-praktek.sql) | Tugas Praktek |

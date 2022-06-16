@@ -1,24 +1,6 @@
-# Diberikan dataset ‘retail_raw_test.csv’
-
-# 1. Baca dataset
-# 2. Tipe data diubah menjadi tipe yang seharusnya
-# - customer_id dari string ke int64,
-# - quantity dari string ke int64,
-# - item_price dari string ke int64
-# 3. transform product_value supaya bentuknya seragam dengan format PXXXX, assign ke kolom baru "product_id", dan drop kolom "product_value", jika terdapat nan gantilah dengan "unknown".
-# 4. trasnform order_date menjadi value dengan format YYYY-mm-dd
-# 5. cek data hilang dari tiap kolom dan kemudian isi missing value
-# - di brand dengan "no_brand", dan
-# - cek dulu bagaimana missing value di city & province - isi missing value di city dan province dengan "unknown"
-# 6. create column city/province dari gabungan city & province
-# 7. membuat index berdasarkan city_provice, order_date, customer_id, order_id, product_id (cek index)
-# 8. membuat kolom "total_price" sebagai hasil perkalian quantity dengan item_price
-# 9. slice data hanya untuk Jan 2019
-# Notes :
-# Dataset :  https://storage.googleapis.com/dqlab-dataset/retail_raw_test.csv
-
 import math
 import pandas as pd
+
 # 1. Baca dataset
 print("[1] BACA DATASET")
 df = pd.read_csv(
@@ -77,18 +59,23 @@ print("    Tipe data:\n", df.dtypes)
 
 # 5. Mengatasi data yang hilang di beberapa kolom
 print("\n[5] HANDLING MISSING VALUE")
+
 # Kolom "city" dan "province" masih memiliki missing value, nilai yang hilang di kedua kolom ini diisi saja dengan "unknown"
 df[["city", "province"]] = df[["city", "province"]].fillna("unknown")
+
 # Kolom brand juga masih memiliki missing value, Ganti value NaN menjadi "no_brand"
 df["brand"] = df["brand"].fillna("no_brand")
+
 # Cek apakah masih terdapat missing value di seluruh kolom
 print("    Info:\n", df.info())
 
 # 6. Membuat kolom baru "city/province" dengan menggabungkan kolom "city" dan kolom "province" dan delete kolom asalnya
 print("\n[6] MEMBUAT KOLOM BARU city/province")
 df["city/province"] = df["city"] + "/" + df["province"]
+
 # drop kolom "city" dan "province" karena telah digabungkan
 df.drop(["city", "province"], axis=1, inplace=True)
+
 # Cetak 5 data teratas
 print(df.head())
 
@@ -96,14 +83,17 @@ print(df.head())
 print("\n[7] MEMBUAT HIERACHICAL INDEX")
 df = df.set_index(["city/province", "order_date",
                   "customer_id", "order_id", "product_id"])
+
 # urutkanlah berdasarkan index yang baru
 df = df.sort_index()
+
 # Cetak 5 data teratas
 print(df.head())
 
 # 8. Membuat kolom "total_price" yang formula nya perkalian antara kolom "quantity" dan kolom "item_price"
 print("\n[8] MEMBUAT KOLOM total_price")
 df["total_price"] = df["quantity"] * df["item_price"]
+
 # Cetak 5 data teratas
 print(df.head())
 

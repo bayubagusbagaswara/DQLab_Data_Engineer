@@ -8,7 +8,7 @@ Matplotlib sendiri menyediakan banyak jenis grafik mulai dari scatter/plot, line
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python%20Fundamental%20for%20Data%20Science/8-Grafik-Dasar-dengan-Matplotlib/1-bar-chart/BarChart.py) | Bar Chart |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python-Fundamental-for-Data-Science/8-Grafik-Dasar-dengan-Matplotlib/BarChart.py) | Bar Chart |
 
 ![Graphic](img/bar-chart.png)
 
@@ -17,7 +17,7 @@ Jika ditelisik lebih dalam pada CSV, dari sana ada nama kelurahan yang merupakan
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python%20Fundamental%20for%20Data%20Science/8-Grafik-Dasar-dengan-Matplotlib/2-parameter-dalam-grafik/ParameterDalamGrafik.py) | Parameter dalam Grafik |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python-Fundamental-for-Data-Science/8-Grafik-Dasar-dengan-Matplotlib/ParameterDalamGrafik.py) | Parameter dalam Grafik |
 
 ![Parameter_Grafik](img/parameter-dalam-grafik.png)
 
@@ -26,6 +26,6 @@ Pada implementasi grafik, pemberian label pada AXIS dan Ordinat sangat penting u
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python%20Fundamental%20for%20Data%20Science/8-Grafik-Dasar-dengan-Matplotlib/3-menambah-title-dan-label/AddTitleAndLabel.py) | Menambahkan Title dan Lable |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python-Fundamental-for-Data-Science/8-Grafik-Dasar-dengan-Matplotlib/AddTitleAndLabel.py) | Menambahkan Title dan Lable |
 
 ![Add_Title_Label](img/add-title-label.png)

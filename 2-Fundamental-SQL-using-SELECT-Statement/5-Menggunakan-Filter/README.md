@@ -19,7 +19,7 @@ Cobalah ubah perintah SELECT pada code editor untuk mengeluarkan data dengan nam
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental%20SQL%20using%20SELECT%20Statement/5-Menggunakan%20Filter/1-menggunakan-where.sql) | Menggunakan Where |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental-SQL-using-SELECT-Statement/5-Menggunakan-Filter/MenggunakanWhere.sql) | Menggunakan Where |
 
 # Menggunakan Operand OR
 Pada subbab sebelumnya, aku telah menggunakan filter teks sederhana untuk mengeluarkan data masing-masing dengan nama_produk 'Gantungan Kunci DQLab' dan 'Tas Travel Organizer DQLab'.
@@ -37,7 +37,7 @@ Tambahkan nama_produk 'Flashdisk DQLab 64 GB' ke dalam tabel.
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental%20SQL%20using%20SELECT%20Statement/5-Menggunakan%20Filter/2-operand-or.sql) | Operand OR |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental-SQL-using-SELECT-Statement/5-Menggunakan-Filter/OperandOr.sql) | Operand OR |
 
 # Filter untuk Angka
 Sebelumnya, aku telah melakukan filtering untuk teks, namun WHERE tidak terbatas untuk tipe data teks saja tapi malah umumnya untuk angka.
@@ -47,7 +47,7 @@ Tampilkan informasi dengan harga diatas 50000.
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental%20SQL%20using%20SELECT%20Statement/5-Menggunakan%20Filter/3-filter-untuk-angka.sql) | Filter untuk Angka |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental-SQL-using-SELECT-Statement/5-Menggunakan-Filter/FilterUntukAngka.sql) | Filter untuk Angka |
 
 # Menggunakan Operand AND
 Jika sebelumnya aku mempelajari Operand OR, aku juga bisa menggunakan operand AND agar dua atau lebih kondisi terpenuhi semuanya. Jika salah satu kondisi tidak terpenuhi, data tidak akan diambil. Secara umum syntaxnya diilustrasikan berikut ini
@@ -59,7 +59,9 @@ Cobalah ganti kondisi contoh di atas dimana harga menjadi lebih kecil dari 50000
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental%20SQL%20using%20SELECT%20Statement/5-Menggunakan%20Filter/4-operand-and.sql) | Operand And |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental-SQL-using-SELECT-Statement/5-Menggunakan-Filter/OperandAnd.sql) | Operand And |
+
+# Quiz
 
 ![Quiz](img/filter-or.PNG)
 

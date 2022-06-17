@@ -1,8 +1,10 @@
 import pandas as pd
+
 # Creating series from list
 ex_list = ['a', 1, 3, 5, 'c', 'd']
 ex_series = pd.Series(ex_list)
 print(ex_series)
+
 # Creating dataframe from list of list
 ex_list_of_list = [[1, 'a', 'b', 'c'],
                    [2.5, 'd', 'e', 'f'],

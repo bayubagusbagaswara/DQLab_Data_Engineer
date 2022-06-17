@@ -14,24 +14,24 @@ Penggunaan IF sebenarnya adalah sebuah statement untuk menentukan keputusan mana
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python%20Fundamental%20for%20Data%20Science/2-Percabangan-Keputusan/1-if-statement/If.py) | If Statement di Python |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python-Fundamental-for-Data-Science/2-Percabangan-Keputusan/If.py) | If Statement di Python |
 
 # IF … ELSE …
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python%20Fundamental%20for%20Data%20Science/2-Percabangan-Keputusan/2-if-else/IfElse.py) | If Else Statement di Python |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python-Fundamental-for-Data-Science/2-Percabangan-Keputusan/IfElse.py) | If Else Statement di Python |
 
 # IF … ELIF … ELSE ….
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python%20Fundamental%20for%20Data%20Science/2-Percabangan-Keputusan/3-if-elif-else/Elif.py) | If Elif Else Statement di Python |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python-Fundamental-for-Data-Science/2-Percabangan-Keputusan/Elif.py) | If Elif Else Statement di Python |
 
 # NESTED IF
 Fungsi IF sendiri dapat digunakan secara bertingkat atau dapat memiliki pengecekan lebih dari 1 kondisi
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python%20Fundamental%20for%20Data%20Science/2-Percabangan-Keputusan/4-nested-if/NestedIf.py) | Nested If Statement di Python |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python-Fundamental-for-Data-Science/2-Percabangan-Keputusan/NestedIf.py) | Nested If Statement di Python |
 

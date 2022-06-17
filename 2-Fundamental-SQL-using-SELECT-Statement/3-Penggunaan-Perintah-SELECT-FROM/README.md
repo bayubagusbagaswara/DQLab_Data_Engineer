@@ -28,7 +28,7 @@ Table `ms_pelanggan`
 Table `ms_produk`
 
 ```bash
-no_urut | kode_produk | nama_produk                        | harga  |
+| no_urut | kode_produk | nama_produk                        | harga  |
 +---------+-------------+------------------------------------+--------+
 |       1 | prod-01     | Kotak Pensil DQLab                 |  62500 |
 |       2 | prod-02     | Flashdisk DQLab 64 GB              |  55000 |
@@ -51,14 +51,14 @@ Senja juga menunjukkan padaku Query dasar dan sederhana perintah SELECT yang ber
 
 ![Select_From](img/select-from.png)
 
-- Kata awal, yaitu SELECT digunakan untuk menginformasikan kepada sistem bahwa kita ingin mengambil data. 
-- Tanda * (bintang) artinya seluruh kolom perlu diambil dari tabel yang dirujuk. Tanda ini sering juga disebut sebagai wildcard.
-- FROM [NAMA_TABLE], artinya table yang akan diambil datanya.
-- Tanda ; (titik koma) adalah tanda yang menyatakan akhir dari perintah SELECT atau SQL lain.
+- Kata awal, yaitu `SELECT` digunakan untuk menginformasikan kepada sistem bahwa kita ingin mengambil data. 
+- Tanda `* (bintang)` artinya seluruh kolom perlu diambil dari tabel yang dirujuk. Tanda ini sering juga disebut sebagai wildcard.
+- `FROM [NAMA_TABLE]`, artinya table yang akan diambil datanya.
+- Tanda `; (titik koma)` adalah tanda yang menyatakan akhir dari perintah SELECT atau SQL lain.
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental%20SQL%20using%20SELECT%20Statement/3-Penggunaan%20Perintah%20SELECT%20...%20FROM/1-memanggil-seluruh-kolom.sql) | Mengambil Seluruh Kolom |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental-SQL-using-SELECT-Statement/3-Penggunaan-Perintah-SELECT-FROM/MemanggilSeluruhKolom.sql) | Mengambil Seluruh Kolom |
 
 # Mengambil Satu Kolom dari Tabel
 Aku sudah cukup paham dengan penjelasan Senja tadi. Tapi, masih ada satu yang mengganjal. “Bagaimana kalau aku hanya ingin menampilkan satu kolom saja dari suatu tabel/data, Nja?”

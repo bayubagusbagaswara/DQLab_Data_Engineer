@@ -2,7 +2,6 @@
 
 Relational Database Management System 
 
-
 # Apa itu RDBMS?
 Relational Database Management System yang biasa disingkat dengan RDMBS adalah suatu program yang memungkinkan untuk Membuat, Memperbarui, dan Mengelola suatu basis data relasional (Relational Database). Nah, Umumnya RDMBS ini menggunakan SQL untuk mengakses database.
 
@@ -18,26 +17,31 @@ Basis data relasional sangat popular dan banyak digunakan oleh perusahaan – pe
 # Produk-produk RDBMS di Pasaran
 Selain MySQL, masih ada produk lain RDBMS, baik yang berbayar (proprietary) maupun open source. Berikut adalah sebagian produk yang cukup populer di pasaran :
 
-
 1. MySQL
-Open-source SQL database yang cukup populer. Umumnya digunakan untuk pengembangan aplikasi web.
+    
+    Open-source SQL database yang cukup populer. Umumnya digunakan untuk pengembangan aplikasi web.
 
 2. PostgreSQL
-Open-source RDBMS product, dan juga umumnya digunakan untuk pengembangan aplikasi web. Akan tetapi secara kinerja, postgreSQL lebih lambat dibandingkan MySQL.
+
+    Open-source RDBMS product, dan juga umumnya digunakan untuk pengembangan aplikasi web. Akan tetapi secara kinerja, postgreSQL lebih lambat dibandingkan MySQL.
 
 3. Oracle DB
-Produk RDBMS yang dimiliki oleh Oracle Corporation dan produk ini bersifat proprietary atau tidak open source. Oracle DB umumnya digunakan di industri perbankan.
+
+    Produk RDBMS yang dimiliki oleh Oracle Corporation dan produk ini bersifat proprietary atau tidak open source. Oracle DB umumnya digunakan di industri perbankan.
 
 4. Microsoft SQL Server 
-SQL Server adalah produk RDBMS yang dimiliki oleh Microsoft dan sama seperti Oracle DB, SQL Server bersifat proprietary atau tidak open source, SQL Server umumnya digunakan di perusahaan skala besar yang juga menggunakan produk keluaran Microsoft lainnya.
+    
+    SQL Server adalah produk RDBMS yang dimiliki oleh Microsoft dan sama seperti Oracle DB, SQL Server bersifat proprietary atau tidak open source, SQL Server umumnya digunakan di perusahaan skala besar yang juga menggunakan produk keluaran Microsoft lainnya.
 
 5. SQLite
-Open source RDBMS, umumnya digunakan sebagai database di handphone, MP3 player, and perangkat lainnya.
-Selain itu, juga ada MariaDB yang juga gratis atau open source, IBM DB2, Microsoft Access, dan masih banyak lainnya.
+    Open source RDBMS, umumnya digunakan sebagai database di handphone, MP3 player, and perangkat lainnya.
+    Selain itu, juga ada MariaDB yang juga gratis atau open source, IBM DB2, Microsoft Access, dan masih banyak lainnya.
 
 Umumnya RDBMS menggunakan SQL untuk mengakses database dan produk RDBMS tidak hanya satu macam saja tetapi ada berbagai macam produk, maka SQL syntax pun bisa jadi sedikit berbeda untuk setiap produk tersebut. Berikut contoh perbandingan MySQL, Oracle, dan SQLSERVER untuk menampilkan beberapa baris data dari suatu tabel :
 
 ![Produk_RDBMS](img/produk-rdbms.png)
+
+# Quiz 
 
 ![Quiz](img/quiz.PNG)
 
@@ -49,6 +53,8 @@ Sebagai penyimpan data, sistem database relasional memiliki struktur hirarki obj
 - Kolom (column) atau Field
 
 Dari sini aku belajar informasi menarik yaitu setiap database bisa berisi beberapa tabel, dan setiap tabel bisa terdiri dari beberapa kolom. Di setiap database, tabel dan kolom memiliki nama sendiri sebagai identitas mereka. Tabel dan kolom inilah yang akan diisi data yang kemudian membentuk row (baris data). 
+
+# Quiz
 
 ![Quiz](img/quiz-2.PNG)
 
@@ -63,7 +69,10 @@ Jika aku perhatikan, struktur tabel ms_produk terdiri dari empat kolom (column),
 - kode_produk
 - nama_produk
 - harga
+
 Dan dalam tabel tersebut terdapat 10 baris data (row) dengan isi data yang bervariasi, contoh isi data untuk kolom "nama_produk" pada baris kelima adalah "Gift Voucher DQLab 250rb".
+
+# Quiz
 
 ![Quiz](img/quiz-3.PNG)
 

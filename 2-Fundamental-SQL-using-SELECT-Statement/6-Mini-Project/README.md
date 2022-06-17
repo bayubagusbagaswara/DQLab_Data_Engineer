@@ -38,8 +38,7 @@ Jawaban:
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental%20SQL%20using%20SELECT%20Statement/6-Mini%20Project/proyek-a.sql) | Project A |
-
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental-SQL-using-SELECT-Statement/6-Mini-Project/ProjectA.sql) | Project A |
 
 # Hasil Belajarku
 Wah seru sekali bagian pertama dari Module SQL ini! Dari materi yang telah aku pelajari dalam 'Fundemental SQL using SELECT Statement', aku telah memahami dan mampu mempraktekkan:

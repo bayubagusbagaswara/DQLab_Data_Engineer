@@ -3,6 +3,8 @@ SQL yang merupakan singkatan dari Structured Query Language, yaitu bahasa komput
 
 SQL dilafalkan dengan membaca tiap karakternya S Q L (es kiu el) atau sikuel.
 
+# Quiz 
+
 ![Apa_SQL](img/apa-sql.PNG)
 
 # Contoh komunikasi SQL
@@ -43,6 +45,8 @@ Terlihat ada sepuluh nama peralatan kantor dengan label DQLab yang ditampilkan. 
 - Manajemen memerlukan laporan dengan informasi yang semakin beragam, seperti: tren penjualan bulan ke bulan, pertumbuhan pelanggan, apakah perusahaan mencapai target, dan lain-lain. Dan ini membutuhkan keahlian SQL yang mumpuni.
 - Programmer yang membangun sistem aplikasi hampir dipastikan selalu bergantung kepada sistem database SQL agar aplikasinya berjalan dengan baik. Dengan demikian, penguasaan SQL adalah hal mutlak.
 - Bisa meningkatkan kinerja perusahaan karena informasi yang kaya dapat dihasilkan melalui SQL.
+
+# Quiz
 
 ![Quiz](img/quiz-sql.PNG)
 

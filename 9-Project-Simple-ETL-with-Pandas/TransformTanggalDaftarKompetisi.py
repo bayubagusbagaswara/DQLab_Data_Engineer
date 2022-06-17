@@ -1,20 +1,5 @@
-# Selain punya aturan mengenai format DATE, MySQL juga memberi aturan pada data yang bertipe DATETIME yaitu YYYY-MM-DD HH:mm:ss dengan keterangan:
-
-# YYYY: 4 digit yang menandakan tahun
-# MM: 2 digit yang menandakan bulan
-# DD: 2 digit yang menandakan tanggal
-# HH: 2 digit yang menandakan jam
-# mm: 2 digit yang menandakan menit
-# ss: 2 digit yang menandakan detik
-# Contohnya yaitu: 2021-04-07 15:10:55
-
-# Karena data kita mengenai waktu registrasi peserta (register_time) belum sesuai format yang seharusnya.
-
-# Maka dari itu, tugas Anda yaitu untuk merubah register_time ke format DATETIME sesuai dengan aturan dari MySQL.
-
-# Simpanlah hasil tersebut ke kolom register_at.
-
 import pandas as pd
+
 df_participant = pd.read_csv(
     'https://storage.googleapis.com/dqlab-dataset/dqthon-participants.csv')
 df_participant['postal_code'] = df_participant['address'].str.extract(

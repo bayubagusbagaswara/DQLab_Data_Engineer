@@ -29,25 +29,25 @@ print("Nilai pi adalah:", math.pi)  # math.pi merupakan sintak untuk memanggil f
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python%20Fundamental%20for%20Data%20Science/6-Modul-dan-Package/1-import-package/ImportPackage.py) | Import Package |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python-Fundamental-for-Data-Science/6-Modul-dan-Package/ImportPackage.py) | Import Package |
 
 # Import dengan Module Rename atau Alias
 Kita bisa mengimpor modul dengan mengganti namanya. Hal ini biasa dilakukan untuk menyingkat nama modul yang panjang.
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python%20Fundamental%20for%20Data%20Science/6-Modul-dan-Package/2-import-with-alias/ImportAlias.py) | Import Alias |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python-Fundamental-for-Data-Science/6-Modul-dan-Package/ImportAlias.py) | Import Alias |
 
 # Import Sebagian Fungsi
 Sebuah module dapat memiliki puluhan atau ratusan fungsi. Terkadang kasus tertentu ketika memprogram, kita hanya membutuhkan satu, dua, atau beberapa buah fungsi saja. Untuk meminimalisir ketidakefisienan suatu program dalam me-load suatu module seperti yang telah dilakukan dalam format import module_name. Selanjutnya, kita dapat mengimport beberapa modul yang dibutuhkan saja menggunakan format from module_name import function_name
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python%20Fundamental%20for%20Data%20Science/6-Modul-dan-Package/3-import-sebagian-fungsi/ImportSebagianFungsi.py) | Import Sebagian Fungsi |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python-Fundamental-for-Data-Science/6-Modul-dan-Package/ImportSebagianFungsi.py) | Import Sebagian Fungsi |
 
 # Import Semua isi Moduls
 Namun, jika memang yang dibutuhkan banyak, semisal lebih dari 10 atau bahkan ratusan fungsi, bisa dilakukan import semuanya dengan menggunakan format from module_name import *. Tanda * disini menunjukan semua fungsi diimport ke dalam code
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python%20Fundamental%20for%20Data%20Science/6-Modul-dan-Package/4-import-semua-isi-moduls/ImportSemuaIsiModuls.py) | Import Semua Isi Moduls |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python-Fundamental-for-Data-Science/6-Modul-dan-Package/ImportSemuaIsiModuls.py) | Import Semua Isi Moduls |

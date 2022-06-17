@@ -29,14 +29,14 @@ Datasetnya tersedia di: 'https://storage.googleapis.com/dqlab-dataset/retail_raw
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/5-Data%20Quality%20with%20Python%20for%20Beginner/1-Data%20Profiling/1-importing-data.py) | Importing Data |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/5-Data-Quality-with-Python-for-Beginner/1-Data-Profiling/ImportingData.py) | Importing Data |
 
 # Inspeksi tipe data
 Dengan library Pandas, dapat menjalankan fungsi `.dtypes` untuk melihat data untuk setiap kolom termasuk tipe datanya.
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/5-Data%20Quality%20with%20Python%20for%20Beginner/1-Data%20Profiling/2-inspeksi-tipe-data.py) | Inspeksi Tipe Data |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/5-Data-Quality-with-Python-for-Beginner/1-Data-Profiling/InspeksiTipeData.py) | Inspeksi Tipe Data |
 
 # Descriptive Statistics - Part 1
 Di bagian ini, aku akan mempelajari berbagai statistik deskriptif yang dapat digunakan untuk lebih memahami struktur data.
@@ -52,7 +52,7 @@ Setelah membaca modul referensi Kroma, aku coba memulai analisis dengan menginsp
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/5-Data%20Quality%20with%20Python%20for%20Beginner/1-Data%20Profiling/3-Descriptive-Statistics-Part-1.py) | Length |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/5-Data-Quality-with-Python-for-Beginner/1-Data-Profiling/DescriptiveStatisticsPart1.py) | Length |
 
 # Descriptive Statistics - Part 2
 Aku melanjutkan mempelajari ke fungsi berikutnya, yaitu Count.
@@ -68,7 +68,7 @@ Setelah yang tadi cukup lancar, aku berniat mengetahui jumlah non-null value dar
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/5-Data%20Quality%20with%20Python%20for%20Beginner/1-Data%20Profiling/4-Descriptive-Statistics-Part-2.py) | Count |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/5-Data-Quality-with-Python-for-Beginner/1-Data-Profiling/DescriptiveStatisticsPart2.py) | Count |
 
 # Descriptive Statistics - Part 3
 Lanjut ke bagian berikutnya. 
@@ -82,7 +82,7 @@ Yes! Aku berhasil mendapatkan length dan count dari product_id, sekarang  aku pe
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/5-Data%20Quality%20with%20Python%20for%20Beginner/1-Data%20Profiling/5-Descriptive-Statistics-Part-3.py) | Missing Value |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/5-Data-Quality-with-Python-for-Beginner/1-Data-Profiling/DescriptiveStatisticsPart3.py) | Missing Value |
 
 # Descriptive Statistics - Part 4
 
@@ -104,7 +104,7 @@ Buatlah statistics deskriptif untuk data item_price dari dataframe retail_raw! B
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/5-Data%20Quality%20with%20Python%20for%20Beginner/1-Data%20Profiling/6-Descriptive-Statistics-Part-4.py) | Maximum, Minimum, Mean, Median, Modus |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/5-Data-Quality-with-Python-for-Beginner/1-Data-Profiling/DescriptiveStatisticsPart4.py) | Maximum, Minimum, Mean, Median, Modus |
 
 # Descriptive Statistics - Part 5
 
@@ -119,7 +119,7 @@ Baiklah, sekarang saatnya lanjut untuk membuat distribusi quartile dari item_pri
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/5-Data%20Quality%20with%20Python%20for%20Beginner/1-Data%20Profiling/7-Descriptive-Statistics-Part-5.py) | Quantile Statistics |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/5-Data-Quality-with-Python-for-Beginner/1-Data-Profiling/DescriptiveStatisticsPart5.py) | Quantile Statistics |
 
 # Descriptive Statistics - Part 6
 
@@ -134,7 +134,7 @@ Tugas Praktek:
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/5-Data%20Quality%20with%20Python%20for%20Beginner/1-Data%20Profiling/8-Descriptive-Statistics-Part-6.py) | Correlation |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/5-Data-Quality-with-Python-for-Beginner/1-Data-Profiling/DescriptiveStatisticsPart6.py) | Correlation |
 
 
 # Penggunaan Profiling Libraries

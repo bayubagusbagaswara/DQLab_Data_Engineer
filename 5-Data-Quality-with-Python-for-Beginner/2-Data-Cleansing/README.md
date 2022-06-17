@@ -20,7 +20,7 @@ Cara treatment terhadap missing-value antara lain:
 
 `Imputasi` merupakan suatu metode treatment terhadap missing value dengan mengisinya menggunakan teknik tertentu. Bisa menggunakan mean, modus ataupun menggunakan predictive modelling. Pada modul ini akan membahas mengenai pemanfaatan function `fillna` dari Pandas untuk imputasi ini, yaitu
 
-![Imputas](img/imputasi.png)
+![Imputasi](img/imputasi.png)
 
 `.function()` yang dimaksud pada syntax di atas adalah penggunan fungsi `.mean()` atau `.mode()`. Penggunaan fungsi `.mean()` atau `.mode()` ini bergantung pada kondisi yang mengharuskan menggunakan nilai rata - rata atau modus dari kolom yang akan diimputasi, seperti
 
@@ -28,6 +28,7 @@ Cara treatment terhadap missing-value antara lain:
 nama_dataframe['nama_kolom'].fillna(nama_dataframe.nama_kolom.mean())
 ```
 atau
+
 ```bash
 nama_dataframe['nama_kolom'].fillna(nama_dataframe.nama_kolom.mode())
 ```
@@ -48,7 +49,7 @@ Note: Screen shoot untuk "Filling the missing value (imputasi):" dan "Drop missi
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/5-Data%20Quality%20with%20Python%20for%20Beginner/2-Data%20Cleansing/1-MissingData.py) | Missing Data |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/5-Data-Quality-with-Python-for-Beginner/2-Data-Cleansing/MissingData.py) | Missing Data |
 
 # Tugas Praktek
 "Bagaimana, Aksara? Sudah dicoba dari modul yang saya kasih?” sapa Kroma. Kulihat ia baru keluar dari ruang meeting. Sedikit terkejut karena Kroma langsung menyapa dan menanyai prosesku, aku butuh beberapa detik sebelum menjawab.
@@ -63,7 +64,7 @@ Aku mengangguk mantap. Aku tak mungkin bertanya pada Kroma dan memintanya mengaj
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/5-Data%20Quality%20with%20Python%20for%20Beginner/2-Data%20Cleansing/2-tugas-praktek.py) | Tugas Praktek |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/5-Data-Quality-with-Python-for-Beginner/2-Data-Cleansing/TugasPraktek1.py) | Tugas Praktek 1 |
 
 # Outliers
 Outliers merupakan data observasi yang muncul dengan nilai-nilai ekstrim. Yang dimaksud dengan nilai-nilai ekstrim dalam observasi adalah nilai yang jauh atau beda sama sekali dengan sebagian besar nilai lain dalam kelompoknya.
@@ -78,6 +79,7 @@ Cara treatment terhadap outliers antara lain:
 Pada umumnya, outliers dapat ditentukan dengan metric IQR (interquartile range).
 
 Rumus dasar dari IQR: Q3 - Q1, dan data suatu observasi dapat dikatakan outliers jika memenuhi kedua syarat dibawah ini:
+
 ```bash
 < Q1 - 1.5 * IQR
 > Q3 + 1.5 * IQR
@@ -100,7 +102,7 @@ Print ukuran dataframe retail_raw sebelum dan setelah dibuang outliers pada kolo
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/5-Data%20Quality%20with%20Python%20for%20Beginner/2-Data%20Cleansing/3-Outliers.py) | Outliers |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/5-Data-Quality-with-Python-for-Beginner/2-Data-Cleansing/Outliers.py) | Outliers |
 
 # Tugas Praktek
 Setelah berhasil mengatasi missing value tadi, aku memutuskan untuk mencoba menemukan sejumlah outliers menggunakan IQR. Dengan begitu, aku bisa mengetahui berapa IQR dari variabel item_price. 
@@ -109,7 +111,7 @@ Caranya dengan mengetikkan bagian yang kosong pada live code editor.
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/5-Data%20Quality%20with%20Python%20for%20Beginner/2-Data%20Cleansing/4-tugas-praktek.py) | Tugas Praktek |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/5-Data-Quality-with-Python-for-Beginner/2-Data-Cleansing/TugasPraktek2.py) | Tugas Praktek 2 |
 
 # Deduplikasi Data
 Duplikasi data merupakan data dengan kondisi pada row-row tertentu memiliki kesamaan data di seluruh kolomnya. Tentunya ada data yang duplikat dalam dataset yang dimiliki. Kondisi duplikasi harus diatasi dengan jalan mengeliminir baris yang mengalami duplikasi, sehingga proses ini dikenal dengan deduplikasi.
@@ -127,4 +129,4 @@ Terakhir lagi menuju selesai! Aku tinggal membuang duplikasi data dari dataset r
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/5-Data%20Quality%20with%20Python%20for%20Beginner/2-Data%20Cleansing/5-deduplikasi-data.py) | Tugas Praktek |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/5-Data-Quality-with-Python-for-Beginner/2-Data-Cleansing/DeduplikasiData.py) | Tugas Praktek Deduplikasi Data |

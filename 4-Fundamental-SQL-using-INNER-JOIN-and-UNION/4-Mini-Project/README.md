@@ -25,7 +25,8 @@ Buatlah query menggunakan tabel ms_pelanggan dan tr_penjualan untuk mendapatkan 
 
 NB: Gunakan SELECT DISTINCT untuk menghilangkan duplikasi, jika diperlukan.
 
-Tabel ms_pelanggan
+`Tabel ms_pelanggan`
+
 ```bash
 +---------+----------------+---------------------+------------------------------------------+
 | no_urut | kode_pelanggan | nama_customer       | alamat                                   |
@@ -45,7 +46,8 @@ Tabel ms_pelanggan
 +---------+----------------+---------------------+------------------------------------------+
 ```
 
-Tabel tr_penjualan
+`Tabel tr_penjualan`
+
 ```bash
 +----------------+----------------+---------+-------------+-------------------------------+------+--------+
 | kode_transaksi | kode_pelanggan | no_urut | kode_produk | nama_produk                   | qty  | harga  |
@@ -70,7 +72,7 @@ Tabel tr_penjualan
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/4-Fundamental%20SQL%20Using%20INNER%20JOIN%20and%20UNION/4-Mini%20Project/1-project-inner-join.sql) | Project Inner Join |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/4-Fundamental-SQL-using-INNER-JOIN-and-UNION/4-Mini-Project/ProjectInnerJoin.sql) | Project Inner Join |
 
 # Project UNION
 Persiapkanlah data katalog mengenai mengenai nama - nama produk yang akan dijual di suatu store. Data tersebut akan digunakan dalam meeting untuk mereview produk mana saja yang akan dilanjutkan penjualannya dan mana yang tidak akan dilanjutkan.
@@ -79,7 +81,8 @@ Siapkan hanya data produk dengan harga di bawah 100K untuk kode produk prod-1 sa
 
 Saat mengecek data produk di database, terdapat 2 tabel yang sama - sama berisi data katalog, yaitu:
 
-Tabel ms_produk_1
+`Tabel ms_produk_1`
+
 ```bash
 +---------+-------------+--------------------------+--------+
 | no_urut | kode_produk | nama_produk              | harga  |
@@ -92,7 +95,8 @@ Tabel ms_produk_1
 +---------+-------------+--------------------------+--------+
 ```
 
-Tabel ms_produk_2
+`Tabel ms_produk_2`
+
 ```bash
 +---------+-------------+------------------------------------+-------+
 | no_urut | kode_produk | nama_produk                        | harga |
@@ -107,7 +111,7 @@ Tabel ms_produk_2
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/4-Fundamental%20SQL%20Using%20INNER%20JOIN%20and%20UNION/4-Mini%20Project/2-project-union.sql) | Project Union |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/4-Fundamental-SQL-using-INNER-JOIN-and-UNION/4-Mini-Project/ProjectUnion.sql) | Project Union |
 
 
 # Hasil Belajarku

@@ -85,7 +85,7 @@ Tabel ms_produk memiliki lebih dari satu kolom data. Kalau aku ingin mengambil k
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental%20SQL%20using%20SELECT%20Statement/3-Penggunaan%20Perintah%20SELECT%20...%20FROM/3-mengambil-lebih-dari-satu-kolom.sql) | Mengambil Lebih dari Satu Kolom |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental-SQL-using-SELECT-Statement/3-Penggunaan-Perintah-SELECT-FROM/MengambilLebihDariSatuKolom.sql) | Mengambil Lebih dari Satu Kolom |
 
 ![Quiz](img/quiz-2.PNG)
 

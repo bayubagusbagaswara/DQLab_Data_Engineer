@@ -149,3 +149,40 @@ Pada contoh di atas keyword argument left=df1 dan right=df2, untuk praktik gunak
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
 | [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/7-Data-Manipulation-with-Pandas-Part-2/1-Penggabungan-Series-atau-DataFrame/Merge.py) | Merge |
+
+# Merge - Part 2
+Penggunaan method .merge yang telah dipelajari pada part 1 adalah untuk dataframe dengan index tunggal.
+
+Bagaimana jika salah satu dataframe atau keseluruhan dataframe yang akan digabungkan tersebut memiliki multi index?
+
+![Contoh_Dataframe](img/contoh-dataframe-merge-2.png)
+
+dengan df1 dan d2 di console:
+
+![Output_Dataframe](img/output-dataframe-merge-2.png)
+
+Jika digabungkan secara langsung seperti yang telah dilakukan pada bagian sebelumnya.
+
+![Merge_Dataframe](img/merge-dataframe-merge-2.png)
+
+akan menghasilkan:
+
+![Output_Merge](img/output-merge-2.png)
+
+terjadi kegagalan dalam merging kedua dataframe yang memiliki multi index.
+
+Cara mengatasinya adalah dengan me-reset index pada kedua dataframe, kemudian merge akan mendeteksi common single/multi column di kedua dataframe dan melakukan merge.
+
+![Dataframe_Merge_Success](img/merge-dataframe-merge-2-success.png)
+
+dengan output-nya:
+
+![Output_Merge_Dataframe_Success](img/output-dataframe-merge-2-success.png)
+
+Tugas Praktik:
+
+| Code  |               Title              	|
+|:----:	|:--------------------------------:	|
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/7-Data-Manipulation-with-Pandas-Part-2/1-Penggabungan-Series-atau-DataFrame/MergePart2.py) | Merge Part 2|
+
+

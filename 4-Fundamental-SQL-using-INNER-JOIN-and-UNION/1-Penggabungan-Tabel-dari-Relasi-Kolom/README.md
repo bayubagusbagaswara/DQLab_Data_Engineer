@@ -29,7 +29,9 @@ Cobalah ketik query pada code editor untuk melihat keseluruhan isi dari kolom ta
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/4-Fundamental%20SQL%20Using%20INNER%20JOIN%20and%20UNION/1-Penggabungan%20Tabel%20dari%20Relasi%20Kolom/1-tugas-praktek.sql) | Tugas Praktek |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/4-Fundamental-SQL-using-INNER-JOIN-and-UNION/1-Penggabungan-Tabel-dari-Relasi-Kolom/TugasPraktek.sql) | Tugas Praktek |
+
+# Quiz
 
 ![Quiz](img/quiz-1a.PNG)
 ![Quiz](img/quiz-1b.PNG)
@@ -53,7 +55,7 @@ Saatnya  mempraktekkan penggabungan tabel ms_item_kategori dan ms_item_warna men
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/4-Fundamental%20SQL%20Using%20INNER%20JOIN%20and%20UNION/1-Penggabungan%20Tabel%20dari%20Relasi%20Kolom/2-Menggabungkan-Tabel-dengan-Key-Columns.sql) | Menggabungkan Table dengan Key Columns |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/4-Fundamental-SQL-using-INNER-JOIN-and-UNION/1-Penggabungan-Tabel-dari-Relasi-Kolom/MenggabungkanTabelDenganKeyColumns.sql) | Menggabungkan Table dengan Key Columns |
 
 Dapat dilihat hasil dari penggabungan dua tabel tersebut yaitu berupa tabel baru dengan empat kolom dan enam baris data. Perlu diketahui bahwa penggabungan ini bersifat sementara artinya tabel asli di database tidak mengalami perubahan, dan tabel baru hasil penggabungan ini juga tidak serta merta tersimpan di database.  
 
@@ -109,6 +111,8 @@ Aku terkekeh, “Hehehe, iya. Biar rapi. Biasanya aku taruh di buku diari juga.�
 
 Aku mengangguk sambil mengangkat jari membentuk kata ‘peace’. Setelah kutelusuri lagi lebih dalam, tak hanya ada kuis saja tapi juga banyak sekali materi-materi baru lainnya! Mumpung Senja masih di sini, aku harus belajar ‘ngebut’ agar bisa bertanya kalau ada yang bingung.
 
+# Quiz
+
 ![Quiz](img/quiz3.PNG)
 
 ![Quiz](img/quiz4.PNG)
@@ -118,7 +122,7 @@ Jika akan mengubah urutan tabel di bagian FROM pada query inner join, maka hanya
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/4-Fundamental%20SQL%20Using%20INNER%20JOIN%20and%20UNION/1-Penggabungan%20Tabel%20dari%20Relasi%20Kolom/3-mengubah-urutan-table.sql) | Mengubah Urutan Table |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/4-Fundamental-SQL-using-INNER-JOIN-and-UNION/1-Penggabungan-Tabel-dari-Relasi-Kolom/MengubahUrutanTabel.sql) | Mengubah Urutan Table |
 
 Terlihat jumlah data yang dihasilkan tetap 6 baris data, namun dengan urutan kolom yang berbeda.
 
@@ -131,7 +135,7 @@ Sebagai contoh, jika akan menggabungkan kedua tabel, dengan menyatakan tabel ms_
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/4-Fundamental%20SQL%20Using%20INNER%20JOIN%20and%20UNION/1-Penggabungan%20Tabel%20dari%20Relasi%20Kolom/4-Menggunakan-Prefix-Nama-Tabel.sql) | Menggunakan Prefix Nama Tabel |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/4-Fundamental-SQL-using-INNER-JOIN-and-UNION/1-Penggabungan-Tabel-dari-Relasi-Kolom/MenggunakanPrefixNamaTabel.sql) | Menggunakan Prefix Nama Tabel |
 
 Terlihat urutan kolom yang muncul adalah dari tabel ms_item_kategori terlebih dahulu.
 
@@ -150,13 +154,15 @@ Aku mencoba mencerna penjelasan Senja. Sebelum aku sempat memahami semuanya. Sen
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/4-Fundamental%20SQL%20Using%20INNER%20JOIN%20and%20UNION/1-Penggabungan%20Tabel%20dari%20Relasi%20Kolom/5-Penggabungan-Tanpa-Kondisi.sql) | Penggabungan Tanpa Kondisi |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/4-Fundamental-SQL-using-INNER-JOIN-and-UNION/1-Penggabungan-Tabel-dari-Relasi-Kolom/PenggabunganTanpaKondisi.sql) | Penggabungan Tanpa Kondisi |
 
 Aku menggumam mengerti. Terlihat banyak sekali hasil yang keluar, ini dikarenakan setiap baris data pada kedua tabel akan dihubungkan satu sama lain - tanpa ada hubungan.
 
 Jumlah enam puluh empat baris data ini adalah hasil perkalian dari jumlah data dari kedua tabel, dimana masing-masing memiliki delapan baris data. Cara menggabungkan kedua tabelseperti ini disebut dengan mekanisme cross join.
 
 Aku sudah sampai di penghujung materi dan sejauh ini cukup paham! Hanya butuh satu kuis lagi untuk menuntaskannya. Belajar memang jadi lebih mudah kalau ada Senja, eh maksudku mentor, hehehe.
+
+# Quiz
 
 ![Quiz](img/quiz-5a.PNG)
 ![Quiz](img/quiz-5b.PNG)

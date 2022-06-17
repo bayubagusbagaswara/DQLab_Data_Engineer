@@ -48,7 +48,7 @@ Tugas Praktek!
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data%20Manipulation%20with%20Pandas%20-%20Part%201/2-Dataset%20IO/1-Read-Dataset-CSV-dan-TSV.py) | Membaca file CSV dan TSV |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data-Manipulation-with-Pandas-Part-1/2-Dataset-IO/ReadDatasetCsvDanTsv.py) | Membaca file CSV dan TSV |
 
 # Read Dataset - Excel
 File Excel dengan ekstensi *.xls atau *.xlsx cukup banyak digunakan dalam menyimpan data. Pandas juga memiliki fitur untuk membaca file excel.
@@ -68,7 +68,7 @@ Tugas Praktek!
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data%20Manipulation%20with%20Pandas%20-%20Part%201/2-Dataset%20IO/2-Read-Dataset-Excel.py) | Membaca file Excel |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data-Manipulation-with-Pandas-Part-1/2-Dataset-IO/ReadDatasetExcel.py) | Membaca file Excel |
 
 # Read Dataset - JSON
 Method .read_json() digunakan untuk membaca URL API yang formatnya JSON dan mengubahnya menjadi dataframe pandas. Method ini dapat digunakan seperti yang dicontohkan berikut ini:
@@ -85,7 +85,7 @@ Tugas Praktek!
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data%20Manipulation%20with%20Pandas%20-%20Part%201/2-Dataset%20IO/3-Read-Dataset-JSON.py) | Membaca file JSON |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data-Manipulation-with-Pandas-Part-1/2-Dataset-IO/ReadDatasetJson.py) | Membaca file JSON |
 
 # Read Dataset - SQL
 Fungsi .read_sql() atau .read_sql_query() digunakan untuk membaca query dari database dan translate menjadi pandas dataframe, contoh case ini database sqlite.
@@ -166,6 +166,8 @@ Berdasarkan file sample_csv.csv cetaklah 3 data teratas dan 3 data terbawah.
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data%20Manipulation%20with%20Pandas%20-%20Part%201/2-Dataset%20IO/4-Head-and-Tail.py) | Head and Tail |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data-Manipulation-with-Pandas-Part-1/2-Dataset-IO/HeadAndTail.py) | Head and Tail |
+
+# Quiz
 
 ![Quiz](img/quiz.PNG)

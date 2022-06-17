@@ -53,9 +53,9 @@ Ketikkanlah kembali statement seperti yang ditunjukkan dalam kedua cara untuk me
 # Treatment untuk Missing Value - Part 1
 Terdapat beberapa cara untuk mengatasi missing value, antara lain:
 
-    - dibiarkan saja,
-    - hapus value itu, atau
-    - isi value tersebut dengan value yang lain (biasanya interpolasi, mean, median, etc)
+- dibiarkan saja,
+- hapus value itu, atau
+- isi value tersebut dengan value yang lain (biasanya interpolasi, mean, median, etc)
  
 Sebelum melakukan action ke missing value pada data covid diatas, sebaiknya tampilkan beberapa row teratas dari dataset itu
 
@@ -78,8 +78,8 @@ Sementara, kolom yang lainnya bagaimana? Misal ambil kolom province_stat, missin
 # Treatment untuk Missing Value - Part 2
 Sekarang dapat menerapkan dua aksi yaitu
 
-    - Membiarkannya saja
-    - Menghapus kolom
+- Membiarkannya saja
+- Menghapus kolom
  
 Treatment `pertama` (membiarkannya saja) seperti pada kolom confirmed, death, dan recovered. Akan tetapi jika tidak ada yang terkonfirmasi, meninggal dan sembuh sebenarnya dapat menukar value ini dengan angka nol. Meskipun ini lebih make sense dalam representasi datanya, tetapi untuk sub bab ini ketiga kolom tersebut diasumsikan dibiarkan memiliki nilai missing value.
 
@@ -93,8 +93,8 @@ Pada method .dropna() ada dua keyword argumen yang harus diisikan yaitu axis dan
 
 Sementara, keyword how digunakan untuk bagaimana cara membuangnya. Opsi yang dapat diterimanya (dalam string) adalah
 
-    - "all" artinya jika seluruh data di satu/beberapa kolom atau di satu/beberapa baris adalah missing value.
-    - "any" artinya jika memiliki 1 saja data yang hilang maka buanglah baris/kolom tersebut.
+- "all" artinya jika seluruh data di satu/beberapa kolom atau di satu/beberapa baris adalah missing value.
+- "any" artinya jika memiliki 1 saja data yang hilang maka buanglah baris/kolom tersebut.
 
 Tugas Praktek:
 
@@ -117,9 +117,9 @@ Jika berhasil akan ditampilkan output-nya sebagai berikut
 # Treatment untuk Missing Value - Part 3
 Sekarang, akan melakukan treatment ketiga untuk melakukan handle missing value pada dataframe. Treatment ini dilakukan dengan cara mengisi missing value dengan nilai lain, yang dapat berupa :
 
-    - nilai statistik seperti mean atau median
-    - interpolasi data
-    - text tertentu
+- nilai statistik seperti mean atau median
+- interpolasi data
+- text tertentu
  
 Akan mulai pada kolom yang missing yang tipe datanya adalah berupa object. Kolom tersebut adalah province_state, karena tidak tahu secara persis province_state mana yang dimaksud, bisa menempatkan string "unknown" sebagai substitusi missing value. Meskipun keduanya berarti sama-sama tidak tahu tetapi berbeda dalam representasi datanya.
 

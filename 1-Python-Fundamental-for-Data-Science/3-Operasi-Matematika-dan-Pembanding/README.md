@@ -21,14 +21,14 @@ Fokus pada sesi ini dititikberatkan pada penggunaan operator matematika mengguna
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python%20Fundamental%20for%20Data%20Science/3-Operasi-Matematika-dan-Pembanding/1-operasi-matematika/OperasiMatematika.py) | Operasi Matematika |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python-Fundamental-for-Data-Science/3-Operasi-Matematika-dan-Pembanding/OperasiMatematika.py) | Operasi Matematika |
 
 # Operasi modulus
 Modulus cukup jarang dipakai, akan tetapi untuk beberapa kasus modulus sangat berguna terutama dalam mempercepat proses perhitungan. Modulus merupakan fungsi yang akan menghitung sisa dari hasil pembagian.
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python%20Fundamental%20for%20Data%20Science/3-Operasi-Matematika-dan-Pembanding/2-operasi-modulus/Modulus.py) | Operasi Modulus |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python-Fundamental-for-Data-Science/3-Operasi-Matematika-dan-Pembanding/Modulus.py) | Operasi Modulus |
 
 Prinsip modulus adalah dasarnya sebuah pembagian. Jika pembagi tidak bisa membagi habis angka yang dibagi maka akan dibagi hingga mendekati nilai terkecil yang tidak mampu dibagi lagi. Selisih antara angka yang mendekati dan angka yang dibagi nanti merupakan hasil modulus. Jika habis dibagi seperti kasus pertama 10/5 maka modulus akan mengembalikan nilai 0.
 
@@ -43,4 +43,4 @@ Note: Kamu bisa menggunakan materi-materi sebelumnya dengan menggabungkannya di 
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python%20Fundamental%20for%20Data%20Science/3-Operasi-Matematika-dan-Pembanding/3-tugas-praktek/MidPraktek.py) | Tugas Praktik |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python-Fundamental-for-Data-Science/3-Operasi-Matematika-dan-Pembanding/MidPraktek.py) | Tugas Praktik |

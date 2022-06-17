@@ -24,7 +24,7 @@ f.close()
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python%20Fundamental%20for%20Data%20Science/7-Membaca-dari-File/1-membaca-text-file-csv/ReadCsv.py) | Membaca file CSV |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python-Fundamental-for-Data-Science/7-Membaca-dari-File/ReadCsv.py) | Membaca file CSV |
 
 # Membaca file CSV dengan menggunakan PANDAS
 
@@ -32,4 +32,4 @@ Bagi yang belum familiar, PANDAS merupakan salah satu library yang sangat sering
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python%20Fundamental%20for%20Data%20Science/7-Membaca-dari-File/2-membaca-csv-with-pandas/ReadCsvWithPandas.py) | Membaca file dengan PANDAS |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python-Fundamental-for-Data-Science/7-Membaca-dari-File/ReadCsvWithPandas.py) | Membaca file CSV menggunakan Pandas |

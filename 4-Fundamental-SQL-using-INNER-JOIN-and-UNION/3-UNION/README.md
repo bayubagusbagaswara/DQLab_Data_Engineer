@@ -22,7 +22,8 @@ Aku sedang mengerjakan kuis-kuis kecil ketika Senja datang membawa dua gelas min
 
 # Tabel yang digunakan
 
-Tabel_A
+`Tabel_A`
+
 ```bash
 +----------------+----------------+---------+-------------+-------------------------------+------+--------+--------+
 | kode_transaksi | kode_pelanggan | no_urut | kode_produk | nama_produk                   | qty  | harga  | total  |
@@ -38,7 +39,8 @@ Tabel_A
 +----------------+----------------+---------+-------------+-------------------------------+------+--------+--------+
 ```
 
-Table_B
+`Table_B`
+
 ```bash
 +----------------+----------------+---------+-------------+-------------------------------+------+--------+---------+
 | kode_transaksi | kode_pelanggan | no_urut | kode_produk | nama_produk                   | qty  | harga  | total   |
@@ -101,7 +103,7 @@ Kedua tabel_A dan tabel_B sudah memiliki jumlah kolom yang sama, dan juga urutan
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/4-Fundamental%20SQL%20Using%20INNER%20JOIN%20and%20UNION/3-UNION/1-menggunakan-union.sql) | Menggunakan UNION |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/4-Fundamental-SQL-using-INNER-JOIN-and-UNION/3-UNION/MenggunakanUnion.sql) | Menggunakan UNION |
 
 # Menggunakan UNION dengan Klausa WHERE
 Aku bertanya pada Senja, “Terus, kalo ada kondisi WHERE, syntaxnya bagaimana? Misalnya aku hanya ingin menggabungkan tabel yang isinya data penjualan untuk kode produk prod-04 saja?”
@@ -115,7 +117,7 @@ Lakukanlah hal yang sama dengan yang dicontohkan, akan dipilih kode_pelanggan = 
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/4-Fundamental%20SQL%20Using%20INNER%20JOIN%20and%20UNION/3-UNION/2-UNION-dengan-Klausa-WHERE.sql) | Union dengan where |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/4-Fundamental-SQL-using-INNER-JOIN-and-UNION/3-UNION/UnionDenganKlausaWhere.sql) | Union dengan where |
 
 # Menyelaraskan (Conforming) Kolom
 Aku diam sebentar untuk menyimak. Tapi, masih ada pertanyaan yang mengganjal di benakku.
@@ -124,11 +126,11 @@ Aku diam sebentar untuk menyimak. Tapi, masih ada pertanyaan yang mengganjal di 
 
 “Tentu saja bisa, kamu bisa menyelaraskan kolom dari kedua tabel di SELECT-statement. Mari kita contohkan dengan data dari tabel berikut ini.”
 
-tabel Customers
+`tabel Customers`
 
 ![Table_Customers](img/table-customers.png)
 
-dan tabel Supplier
+dan `tabel Suppliers`
 
 ![Table_Suppliers](img/table-supplier.png)
 
@@ -155,7 +157,7 @@ Senja menyerahkan tugas praktik sederhana untuk menguji materi ini. Sekilas kuba
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/4-Fundamental%20SQL%20Using%20INNER%20JOIN%20and%20UNION/3-UNION/3-Menggunakan-UNION-dan-Menyelaraskan-Kolom-Kolomnya.sql) | Union menyelaraskan Kolom |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/4-Fundamental-SQL-using-INNER-JOIN-and-UNION/3-UNION/MenggunakanUnionDanMenyelaraskanKolomKolomnya.sql) | Union menyelaraskan Kolom |
 
 # Perbedaan antara UNION dan JOIN
 Setelah mengerjakan tugas, aku jadi teringat materiku sebelumnya mengenai JOIN. Sebenarnya kalau dipikir-pikir fungsi keduanya tampak mirip. Jadi, kapan waktu yang tepat untuk memaki salah satu darinya? Aku memutuskan menanyakan hal ini pada Senja.
@@ -173,6 +175,8 @@ Untuk UNION seperti yang sudah dijelaskan, digunakan ketika ingin menggabungkan 
 ![Hasil_Union](img/hasil-union.png)
 
 Pada proses penggabungan UNION, tidak terdapat penambahan kolom tetapi jumlah baris/rows yang akan bertambah. 
+
+# Quiz
 
 ![Quiz](img/quiz.PNG)
 

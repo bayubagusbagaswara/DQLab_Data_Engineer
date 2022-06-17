@@ -183,6 +183,58 @@ Tugas Praktik:
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/7-Data-Manipulation-with-Pandas-Part-2/1-Penggabungan-Series-atau-DataFrame/MergePart2.py) | Merge Part 2|
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/7-Data-Manipulation-with-Pandas-Part-2/1-Penggabungan-Series-atau-DataFrame/MergePart2.py) | Merge Part 2 |
 
 
+# Join
+Method .join() digunakan pada dataframe untuk menggabungkan kedua data dengan set index pada kedua tabel tersebut sebagai join key, tanpa index, hal ini tidak akan berhasil.
+
+Coba lihat kasusnya.
+
+![Kasus_Join](img/kasus-join.png)
+
+dengan output:
+
+![Output_Join](img/output-kasus-join.png)
+
+Terdapat error berupa:
+
+```bash
+ValueError: columns overlap but no suffix specified: Index(['key'], dtype='object')
+```
+
+Untuk itu, jika dilakukan seperti ini:
+
+![Lakukan_Join](img/perbaikan-join.png)
+
+akan menghasilkan:
+
+![Output_Perbaikan_Join](img/output-perbaikan-join.png)
+
+secara default, fungsi join ini akan mengeksekusi left join.
+
+Untuk tipe join yang lain (contoh=inner), harus men-specify keyword how='inner' seperti yang dicontohkan berikut ini:
+
+![Contoh_Inner_Join](img/contoh-inner-join.png)
+
+dengan output:
+
+![Output_Inner_Join](img/output-contoh-inner-join.png)
+
+Tugas Praktek:
+
+Lakukanlah seperti yang dicontohkan tetapi penggabungan dengan method join berupa outer join.
+
+Jika berhasil dijalankan hasil berikut yang akan diperoleh:
+
+![Output_Tugas_Praktek](img/output-tugas-praktek-join.png)
+
+| Code  |               Title              	|
+|:----:	|:--------------------------------:	|
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/7-Data-Manipulation-with-Pandas-Part-2/1-Penggabungan-Series-atau-DataFrame/Join.py) | Join |
+
+# Quiz
+
+![Quiz_1](img/quiz-1.PNG)
+
+![Quiz_2](img/quiz-2.PNG)

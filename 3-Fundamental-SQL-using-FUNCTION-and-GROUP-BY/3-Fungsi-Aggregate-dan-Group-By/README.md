@@ -12,6 +12,7 @@ Aku mengalihkan perhatianku dari layar laptop dan mendorong bangku mendekati Sen
 Fungsi Aggregate SUM()
 
 Syntax: 
+
 ```bash
 SELECT SUM(ColumnName)  
 FROM TableName; 
@@ -19,7 +20,7 @@ FROM TableName;
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/3-Fundamental%20SQL%20Using%20FUNCTION%20and%20GROUP%20BY/3-Fungsi%20Aggregate%20dan%20Group%20By/1-SUM.sql) | Fungsi SUM |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/3-Fundamental-SQL-using-FUNCTION-and-GROUP-BY/3-Fungsi-Aggregate-dan-Group-By/FungsiSum.sql) | Fungsi SUM |
 
 # Fungsi Aggregate - COUNT()
 Fungsi Aggregate COUNT()
@@ -32,7 +33,7 @@ FROM TableName;
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/3-Fundamental%20SQL%20Using%20FUNCTION%20and%20GROUP%20BY/3-Fungsi%20Aggregate%20dan%20Group%20By/2-COUNT.sql) | Fungsi COUNT |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/3-Fundamental-SQL-using-FUNCTION-and-GROUP-BY/3-Fungsi-Aggregate-dan-Group-By/FungsiCount.sql) | Fungsi COUNT |
 
 # Fungsi Aggregate - AVG( )
 Fungsi Aggregate AVG()
@@ -45,7 +46,7 @@ FROM TableName;
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/3-Fundamental%20SQL%20Using%20FUNCTION%20and%20GROUP%20BY/3-Fungsi%20Aggregate%20dan%20Group%20By/3-AVG.sql) | Fungsi AVG |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/3-Fundamental-SQL-using-FUNCTION-and-GROUP-BY/3-Fungsi-Aggregate-dan-Group-By/FungsiAvg.sql) | Fungsi AVG |
 
 # Tugas Praktek
 Tugas:
@@ -53,7 +54,7 @@ Setelah memahami fungsi-fungsi sebelumnya, kali ini Senja memintaku untuk menggu
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/3-Fundamental%20SQL%20Using%20FUNCTION%20and%20GROUP%20BY/3-Fungsi%20Aggregate%20dan%20Group%20By/4-tugas-praktek.sql) | Tugas Praktek |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/3-Fundamental-SQL-using-FUNCTION-and-GROUP-BY/3-Fungsi-Aggregate-dan-Group-By/TugasPraktek1.sql) | Tugas Praktek |
 
 
 # Pengenalan GROUP BY
@@ -86,14 +87,14 @@ Fungsi Group by Single Column memastikan data dapat dikelompokkan menggunakan kr
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/3-Fundamental%20SQL%20Using%20FUNCTION%20and%20GROUP%20BY/3-Fungsi%20Aggregate%20dan%20Group%20By/5-Group-by-Single-Column.sql) | Group by Single Column |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/3-Fundamental-SQL-using-FUNCTION-and-GROUP-BY/3-Fungsi-Aggregate-dan-Group-By/GroupbySingleColumn.sql) | Group by Single Column |
 
 # Group by Multiple Column
 Dengan fungsi Group by Multiple Column, data dapat dikelompokkan menggunakan kriteria dari dua kolom atau lebih, misalnya mengelompokkan data berdasarkan province dan brand.
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/3-Fundamental%20SQL%20Using%20FUNCTION%20and%20GROUP%20BY/3-Fungsi%20Aggregate%20dan%20Group%20By/6-Group-by-Multiple-Column.sql) | Group by Multiple Column |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/3-Fundamental-SQL-using-FUNCTION-and-GROUP-BY/3-Fungsi-Aggregate-dan-Group-By/GroupbyMultipleColumn.sql) | Group by Multiple Column |
 
 # Fungsi Aggregate dengan Grouping
 “Tambahan lagi, Aksara. Kamu masih ingatkan fungsi agregasi yang kita pelajari dan praktikkan sebelumnya? Pada fungsi itu kita belum menggunakan group by sehingga hasil SUM dan COUNT kita adalah hasil SUM dan COUNT dari seluruh baris yang ada di tabel data penjualan.”
@@ -106,7 +107,7 @@ Senja membuka data penjualan perusahaan tahun lalu untukku. Wow!
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/3-Fundamental%20SQL%20Using%20FUNCTION%20and%20GROUP%20BY/3-Fungsi%20Aggregate%20dan%20Group%20By/7-Fungsi-Aggregate-dengan-Grouping.sql) | Fungsi Aggregate dengan Grouping |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/3-Fundamental-SQL-using-FUNCTION-and-GROUP-BY/3-Fungsi-Aggregate-dan-Group-By/FungsiAggregateDenganGrouping.sql) | Fungsi Aggregate dengan Grouping |
 
 # Penggunaan CASE … WHEN….
 “Wah, terima kasih Senja, aku sudah mulai paham menggunakan fungsi aggregate di SQL. Tapi aku mau tanya deh, kalau aku diminta untuk menambahkan kolom rekomendasi atau remark dari hasil agregasi data, misalnya nilai penjualan bulan Maret 2019 lebih dari 30M, maka diberikan rekomendasi/remark “Target Achieved”, kalau kurang diberi remark “Follow Up”. Bagaimana melakukannya di SQL ya? 
@@ -139,4 +140,4 @@ Tambahkan kolom remark menggunakan CASE… WHEN… statement. Jika sum(item_pric
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/3-Fundamental%20SQL%20Using%20FUNCTION%20and%20GROUP%20BY/3-Fungsi%20Aggregate%20dan%20Group%20By/8-tugas-praktek.sql) | Tugas Praktek |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/3-Fundamental-SQL-using-FUNCTION-and-GROUP-BY/3-Fungsi-Aggregate-dan-Group-By/TugasPraktek2.sql) | Tugas Praktek |

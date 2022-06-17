@@ -32,7 +32,7 @@ Tampilkanlah index dan kolom data teratas dari file TSV "https://storage.googlea
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data%20Manipulation%20with%20Pandas%20-%20Part%201/3-Indexing%2C%20Slicing%2C%20dan%20Transforming/2-Indexing-Part-2.py) | Indexing |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data-Manipulation-with-Pandas-Part-1/3-Indexing-Slicing-dan-Transforming/IndexingPart2.py) | Indexing |
 
 # Indexing - Part 3
 Di sub bab sebelumnya telah dibahas terkait single index, tentunya pada sub bab ini akan bahas multi index atau disebut juga dengan hierarchical indexing.
@@ -78,7 +78,7 @@ Kolom yang menjadi index-nya yaitu 'order_date', 'city', dan 'customer_id'!
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data%20Manipulation%20with%20Pandas%20-%20Part%201/3-Indexing%2C%20Slicing%2C%20dan%20Transforming/3-Indexing-Part-3.py) | Indexing |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data-Manipulation-with-Pandas-Part-1/3-Indexing-Slicing-dan-Transforming/IndexingPart3.py) | Indexing |
 
 
 # Indexing - Part 4
@@ -105,7 +105,7 @@ Jika berhasil dijalankan kodenya maka akan tampil hasil berikut:
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data%20Manipulation%20with%20Pandas%20-%20Part%201/3-Indexing%2C%20Slicing%2C%20dan%20Transforming/4-Indexing-Part-4.py) | Indexing |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data-Manipulation-with-Pandas-Part-1/3-Indexing-Slicing-dan-Transforming/IndexingPart4.py) | Indexing |
 
 # Indexing - Part 5
 Jika file yang akan dibaca melalui penggunaan library pandas dapat di-preview terlebih dahulu struktur datanya maka melalui fungsi yang ditujukan untuk membaca file dapat diset mana kolom yang akan dijadikan index.
@@ -134,7 +134,9 @@ Jika berhasil dijalankan kodenya maka akan tampil hasil berikut:
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data%20Manipulation%20with%20Pandas%20-%20Part%201/3-Indexing%2C%20Slicing%2C%20dan%20Transforming/5-Indexing-Part-5.py) | Indexing |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data-Manipulation-with-Pandas-Part-1/3-Indexing-Slicing-dan-Transforming/IndexingPart5.py) | Indexing |
+
+# Quiz 
 
 ![Quiz](img/quiz-1.PNG)
 
@@ -167,7 +169,7 @@ Jika berhasil dijalankan kodenya maka akan tampil hasil berikut:
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data%20Manipulation%20with%20Pandas%20-%20Part%201/3-Indexing%2C%20Slicing%2C%20dan%20Transforming/6-Slicing-Part-1.py) | Slicing |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data-Manipulation-with-Pandas-Part-1/3-Indexing-Slicing-dan-Transforming/SlicingPart1.py) | Slicing |
 
 # Slicing - Part 2
 Dalam sub bab sebelumnya telah mempelajari bagaimana melakukan slicing/filtering dataset dengan menggunakan method .loc pada kolom dataset.
@@ -204,7 +206,9 @@ Jika berhasil dijalankan kodenya maka akan tampil hasil berikut:
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data%20Manipulation%20with%20Pandas%20-%20Part%201/3-Indexing%2C%20Slicing%2C%20dan%20Transforming/7-Slicing-Part-2.py) | Slicing |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data-Manipulation-with-Pandas-Part-1/3-Indexing-Slicing-dan-Transforming/SlicingPart2.py) | Slicing |
+
+# Quiz
 
 ![Quiz_2](img/quiz-2.PNG)
 
@@ -255,11 +259,11 @@ Notes :
 
 Dataset : https://storage.googleapis.com/dqlab-dataset/sample_csv.csv
 
-![Output_Tugas_Praktek](img/output-tugas-praktek-transforming1.png)
+![Output_Tugas_Praktek](img/output-tugas-praktek-transforming-1.png)
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data%20Manipulation%20with%20Pandas%20-%20Part%201/3-Indexing%2C%20Slicing%2C%20dan%20Transforming/8-Transforming-Part-1.py) | Transforming |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data-Manipulation-with-Pandas-Part-1/3-Indexing-Slicing-dan-Transforming/TransformingPart1.py) | Transforming |
 
 # Transforming - Part 2
 Pada sub bab ini akan mengubah tipe data pada kolom dataframe yang telah dibaca menjadi tipe data float (kolom quantity) dan tipe kategori (kolom city).
@@ -295,7 +299,7 @@ Dataset : https://storage.googleapis.com/dqlab-dataset/sample_csv.csv
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data%20Manipulation%20with%20Pandas%20-%20Part%201/3-Indexing%2C%20Slicing%2C%20dan%20Transforming/9-Transforming-Part-2.py) | Transforming |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data-Manipulation-with-Pandas-Part-1/3-Indexing-Slicing-dan-Transforming/TransformingPart2.py) | Transforming |
 
 # Transforming - Part 3
 Sekarang akan mempelajari teknik/cara berikutnya dalam proses transformasi suatu dataframe. Di sub bab ini akan memakai method .apply() dan .map() pada suatu dataframe.
@@ -328,11 +332,11 @@ Notes :
 
 Dataset : https://storage.googleapis.com/dqlab-dataset/sample_csv.csv
 
-![Output_Tugas_Praktek](img/output-tugas-praktek-transformin-3.png)
+![Output_Tugas_Praktek](img/output-tugas-praktek-transforming-3.png)
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data%20Manipulation%20with%20Pandas%20-%20Part%201/3-Indexing%2C%20Slicing%2C%20dan%20Transforming/10-Transforming-Part-3.py) | Transforming |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data-Manipulation-with-Pandas-Part-1/3-Indexing-Slicing-dan-Transforming/TransformingPart3.py) | Transforming |
 
 # Transforming - Part 4
 Di sub bab sebelumnya sudah mengetahui bahwa map hanya dapat digunakan untuk pandas series. Pada sub bab ini akan menggunakan method .applymap pada dataframe.
@@ -341,11 +345,11 @@ Untuk itu perhatikan contoh berikut:
 
 ![Code_Contoh](img/code-contoh-transforming-4.png)
 
-Cara 1 dengan tanpa define function awalnya, langsung pake fungsi anonymous lambda x
+`Cara 1` dengan tanpa define function awalnya, langsung pake fungsi anonymous lambda x
 
 ![Cara_1](img/cara-1-transforming-4.png)
 
-Cara 2 dengan define function
+`Cara 2` dengan define function
 
 ![Cara_2](img/cara-2-transforming-4.png)
 
@@ -361,4 +365,4 @@ Dengan cara yang sama seperti diatas buatlah matriks random ukuran 3 x 4 dengan 
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data%20Manipulation%20with%20Pandas%20-%20Part%201/3-Indexing%2C%20Slicing%2C%20dan%20Transforming/11-Transforming-Part-4.py) | Transforming |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data-Manipulation-with-Pandas-Part-1/3-Indexing-Slicing-dan-Transforming/TransformingPart4.py) | Transforming |

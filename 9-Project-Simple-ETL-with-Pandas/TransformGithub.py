@@ -1,9 +1,3 @@
-# Salah satu parameter untuk mengetahui proyek apa saja yang pernah dikerjakan oleh peserta yaitu dari git repository mereka.
-
-# Pada kasus ini kita menggunakan profil github sebagai parameternya. Tugas Anda yaitu membuat kolom baru bernama github_profile yang merupakan link profil github dari peserta.
-
-# Diketahui bahwa profil github mereka merupakan gabungan dari first_name dan last_name yang sudah di-lowercase.
-
 import pandas as pd
 df_participant = pd.read_csv(
     'https://storage.googleapis.com/dqlab-dataset/dqthon-participants.csv')

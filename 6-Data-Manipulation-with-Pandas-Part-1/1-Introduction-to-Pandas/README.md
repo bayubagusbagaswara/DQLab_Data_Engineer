@@ -10,7 +10,7 @@ Pandas adalah library python open source yang biasanya digunakan untuk kebutuhan
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data%20Manipulation%20with%20Pandas%20-%20Part%201/1-Introduction%20to%20Pandas/1-memanggil-library-pandas.py) | Memanggil Library Pandas |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data-Manipulation-with-Pandas-Part-1/1-Introduction-to-Pandas/MemanggilLibraryPandas.py) | Memanggil Library Pandas |
 
 # DataFrame & Series
 Di Pandas terdapat 2 kelas data baru yang digunakan sebagai struktur dari spreadsheet:
@@ -20,7 +20,7 @@ Di Pandas terdapat 2 kelas data baru yang digunakan sebagai struktur dari spread
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data%20Manipulation%20with%20Pandas%20-%20Part%201/1-Introduction%20to%20Pandas/2-dataframe-dan-series.py) | Dataframe dan Series |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data-Manipulation-with-Pandas-Part-1/1-Introduction-to-Pandas/DataframeDanSeries.py) | Dataframe dan Series |
 
 
 # Atribut DataFrame & Series - Part 1
@@ -71,7 +71,7 @@ Tugas Praktek
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data%20Manipulation%20with%20Pandas%20-%20Part%201/1-Introduction%20to%20Pandas/3-Atribut-DataFrame-%26-Series-Part1.py) | Atribut Dataframe dan Series |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data-Manipulation-with-Pandas-Part-1/1-Introduction-to-Pandas/AtributDataFrameDanSeriesPart1.py) | Atribut Dataframe dan Series |
 
 # Atribut DataFrame & Series - Part 2
 Dataframe dan Series memiliki sangat banyak atribut yang digunakan untuk transformasi data, tetapi ada beberapa attribute yang sering dipakai. Di sini series number_list dan data frame matrix_list digunakan kembali.
@@ -110,7 +110,7 @@ Tugas Praktek
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data%20Manipulation%20with%20Pandas%20-%20Part%201/1-Introduction%20to%20Pandas/4-Atribut-DataFrame-%26-Series-Part2.py) | Atribut Dataframe dan Series |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data-Manipulation-with-Pandas-Part-1/1-Introduction-to-Pandas/AtributDataFrameDanSeriesPart2.py) | Atribut Dataframe dan Series |
 
 # Atribut DataFrame & Series - Part 3
 Dataframe dan Series memiliki sangat banyak atribut yang digunakan untuk transformasi data, tetapi ada beberapa attribute yang sering dipakai. Di sini series `number_list` dan data frame `matrix_list` pada subbab sebelumnya digunakan kembali.
@@ -159,8 +159,9 @@ Tugas praktek:
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data%20Manipulation%20with%20Pandas%20-%20Part%201/1-Introduction%20to%20Pandas/5-Atribut-DataFrame-%26-Series-Part3.py) | Atribut Dataframe dan Series |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data-Manipulation-with-Pandas-Part-1/1-Introduction-to-Pandas/AtributDataFrameDanSeriesPart3.py) | Atribut Dataframe dan Series |
 
+# Quiz
 
 ![Quiz](img/quiz-1a.PNG)
 ![Quiz](img/quiz-1b.PNG)
@@ -174,7 +175,7 @@ Tugas Praktek!
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data%20Manipulation%20with%20Pandas%20-%20Part%201/1-Introduction%20to%20Pandas/7-Creating-Series-%26-Dataframe-from-List.py) | Creating Series & DataFrame from List |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data-Manipulation-with-Pandas-Part-1/1-Introduction-to-Pandas/CreatingSeriesDanDataFrameFromList.py) | Creating Series & DataFrame from List |
 
 # Creating Series & Dataframe from Dictionary
 Untuk membuat Series atau Dataframe bisa dari berbagai macam tipe data container/mapping di python, seperti list dan dictionary, maupun dari numpy array.
@@ -185,7 +186,7 @@ Tugas Praktek!
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data%20Manipulation%20with%20Pandas%20-%20Part%201/1-Introduction%20to%20Pandas/8-Creating-Series-%26-Dataframe-from-Dictionary.py) | Creating Series & DataFrame from Dictionary |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data-Manipulation-with-Pandas-Part-1/1-Introduction-to-Pandas/CreatingSeriesDanDataFrameFromDictionary.py) | Creating Series & DataFrame from Dictionary |
 
 
 # Creating Series & Dataframe from Numpy Array
@@ -197,6 +198,8 @@ Tugas Praktek!
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data%20Manipulation%20with%20Pandas%20-%20Part%201/1-Introduction%20to%20Pandas/9-Creating%20Series-%26-Dataframe-from-Numpy-Array.py) | Creating Series & DataFrame from Numpy Array |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/6-Data-Manipulation-with-Pandas-Part-1/1-Introduction-to-Pandas/CreatingSeriesDanDataFrameFromNumpyArray.py) | Creating Series & DataFrame from Numpy Array |
+
+# Quiz 
 
 ![Quiz_2](img/quiz-2.PNG)

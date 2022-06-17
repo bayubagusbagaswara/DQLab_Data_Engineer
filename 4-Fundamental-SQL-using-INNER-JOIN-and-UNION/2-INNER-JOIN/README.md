@@ -45,7 +45,7 @@ Sejauh ini aku belum memiliki pertanyaan berarti dan semoga saja tidak ada. Dala
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/4-Fundamental%20SQL%20Using%20INNER%20JOIN%20and%20UNION/2-INNER%20JOIN/1-tugas-praktek.sql) | Tugas Praktek 1 |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/4-Fundamental-SQL-using-INNER-JOIN-and-UNION/2-INNER-JOIN/TugasPraktek.sql) | Tugas Praktek 1 |
 
 Hasil yang diperoleh dengan penggunaan SELECT … FROM … INNER JOIN … ON …; adalah sama dengan penerapan SELECT … FROM … WHERE …;.
 
@@ -60,7 +60,9 @@ Tak kusangka penggunaan INNER JOIN ini banyak sekali langkah per langkahnya. Unt
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/4-Fundamental%20SQL%20Using%20INNER%20JOIN%20and%20UNION/2-INNER%20JOIN/2-tabel-tr-penjualan-dan-tabel-ms-produk.sql) | Table penjualan dan ms produk |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/4-Fundamental-SQL-using-INNER-JOIN-and-UNION/2-INNER-JOIN/SelectTabelPenjualanDanTabelProduk.sql) | Table penjualan dan ms produk |
+
+# Quiz
 
 ![Quiz](img/quiz-1.PNG)
 
@@ -69,8 +71,7 @@ Tak kusangka penggunaan INNER JOIN ini banyak sekali langkah per langkahnya. Unt
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/4-Fundamental%20SQL%20Using%20INNER%20JOIN%20and%20UNION/2-INNER%20JOIN/3-tugas-praktek.sql) | Tugas Praktek 2 |
-
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/4-Fundamental-SQL-using-INNER-JOIN-and-UNION/2-INNER-JOIN/TugasPraktek2.sql) | Tugas Praktek 2 |
 
 # Memahami Proses dan Hasil Query dengan INNER JOIN
 “Lanjut ya, Aksara. Kita ngejar supaya materi ini bisa kamu kuasai hari ini juga,” ujar Senja.
@@ -140,7 +141,7 @@ Kemudian aku membentuk kolom total yang merupakan hasil perkalian setiap baris p
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/4-Fundamental%20SQL%20Using%20INNER%20JOIN%20and%20UNION/2-INNER%20JOIN/4-tugas-praktek.sql) | Tugas Praktek 3 |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/4-Fundamental-SQL-using-INNER-JOIN-and-UNION/2-INNER-JOIN/TugasPraktek3.sql) | Tugas Praktek 3 |
 
 # Kesimpulan
 Pada chapter INNER JOIN ini kita telah mempelajari bagaimana menggabungkan dua tabel berdasarkan key column-nya.

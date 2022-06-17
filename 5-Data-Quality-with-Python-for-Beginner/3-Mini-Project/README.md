@@ -29,7 +29,7 @@ Setelah membaca email tersebut, aku pun memulai kode programnya di code editor.
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/5-Data%20Quality%20with%20Python%20for%20Beginner/3-Mini%20Project/1-case-data-profiling.py) | Case Data Profiling |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/5-Data-Quality-with-Python-for-Beginner/3-Mini-Project/CaseDataProfiling.py) | Case Data Profiling |
 
 # Case Study: Data Cleansing - Part 1
 
@@ -39,7 +39,7 @@ Untuk memprosesnya bisa dilakukan dengan cara berikut:
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/5-Data%20Quality%20with%20Python%20for%20Beginner/3-Mini%20Project/2-Data-Cleansing-Part1.py) | Case Data Cleansing |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/5-Data-Quality-with-Python-for-Beginner/3-Mini-Project/CaseDataCleansingPart1.py) | Case Data Cleansing |
 
 # Case Study: Data Cleansing - Part 2
 Langkah selanjutnya bisa dilakukan dengan cara berikut:
@@ -49,7 +49,7 @@ Langkah selanjutnya bisa dilakukan dengan cara berikut:
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/5-Data%20Quality%20with%20Python%20for%20Beginner/3-Mini%20Project/3-Data-Cleansing-Part-2.py) | Case Data Cleansing |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/5-Data-Quality-with-Python-for-Beginner/3-Mini-Project/CaseDataCleansingPart2.py) | Case Data Cleansing |
 
 # Penutup/Kesimpulan
 Congratulations! Aku telah menyelesaikan modul Data Quality with Python for Beginner. Berdasarkan materi-materi yang diberikan Kroma yang telah kupelajari dan praktekkan dalam modul ini, aku telah mendapatkan pengetahuan (knowledge) dan praktek (skill) yang diantaranya :

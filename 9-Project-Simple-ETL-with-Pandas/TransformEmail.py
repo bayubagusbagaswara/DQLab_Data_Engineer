@@ -1,7 +1,3 @@
-# Setelah dilihat kembali dari data peserta yang dimiliki, ternyata ada satu informasi yang penting namun belum tersedia, yaitu email.
-
-# Anda sebagai Data Engineer diminta untuk menyediakan informasi email dari peserta dengan aturan bahwa format email sebagai berikut
-
 import pandas as pd
 df_participant = pd.read_csv(
     'https://storage.googleapis.com/dqlab-dataset/dqthon-participants.csv')

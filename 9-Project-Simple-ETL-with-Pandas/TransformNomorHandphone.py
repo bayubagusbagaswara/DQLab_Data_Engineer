@@ -1,9 +1,3 @@
-# Jika kita lihat kembali, ternyata nomor handphone yang ada pada data csv kita memiliki format yang berbeda-beda. Maka dari itu, kita perlu untuk melakukan cleansing pada data nomor handphone agar memiliki format yang sama. Anda sebagai Data Engineer diberi privilege untuk menentukan format nomor handphone yang benar. Pada kasus ini mari kita samakan formatnya dengan aturan:
-
-# 1. Jika awalan nomor HP berupa angka 62 atau +62 yang merupakan kode telepon Indonesia, maka diterjemahkan ke 0.
-# 2. Tidak ada tanda baca seperti kurung buka, kurung tutup, strip⟶ ()-
-# 3. Tidak ada spasi pada nomor HP nama kolom untuk menyimpan hasil cleansing pada nomor HP yaitu cleaned_phone_number
-
 import pandas as pd
 df_participant = pd.read_csv(
     'https://storage.googleapis.com/dqlab-dataset/dqthon-participants.csv')

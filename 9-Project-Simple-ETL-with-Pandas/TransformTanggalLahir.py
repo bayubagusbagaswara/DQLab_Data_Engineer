@@ -1,18 +1,3 @@
-# MySQL merupakan salah satu database yang sangat populer dan digunakan untuk menyimpan data berupa tabel, termasuk data hasil pengolahan yang sudah kita lakukan ini nantinya bisa dimasukkan ke MySQL.
-
-# Meskipun begitu, ada suatu aturan dari MySQL terkait format tanggal yang bisa mereka terima yaitu YYYY-MM-DD dengan keterangan:
-
-# YYYY: 4 digit yang menandakan tahun
-# MM: 2 digit yang menandakan bulan
-# DD: 2 digit yang menandakan tanggal
-# Contohnya yaitu: 2021-04-07
-
-# Jika kita lihat kembali pada kolom tanggal lahir terlihat bahwa nilainya belum sesuai dengan format DATE dari MySQL
-
-# (Lihat lebih detail di sini.).
-
-# Oleh karena itu, lakukanlah formatting terhadap kolom birth_date menjadi YYYY-MM-DD dan simpan di kolom yang sama.
-
 import pandas as pd
 df_participant = pd.read_csv(
     'https://storage.googleapis.com/dqlab-dataset/dqthon-participants.csv')

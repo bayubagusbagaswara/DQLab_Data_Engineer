@@ -24,7 +24,7 @@ Aksara, saya senang dengan perkembanganmu belakangan ini. Saya mau minta tolong 
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/3-Fundamental%20SQL%20Using%20FUNCTION%20and%20GROUP%20BY/4-Mini%20Project/1-Analisis-Penjualan-Part-1.sql) | Analisis Penjualan Part 1 |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/3-Fundamental-SQL-using-FUNCTION-and-GROUP-BY/4-Mini-Project/AnalisisPenjualanPart1.sql) | Analisis Penjualan Part 1 |
 
 # Proyek Pekerjaan - Analisis Penjualan Part 2
 (lanjutan ...)
@@ -36,7 +36,7 @@ Saya mau minta tolong agar kamu melakukan analisis penjualan di suatu store. Ada
 
 | Code  |               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/3-Fundamental%20SQL%20Using%20FUNCTION%20and%20GROUP%20BY/4-Mini%20Project/2-Analisis-Penjualan-Part-2.sql) | Analisis Penjualan Part 2 |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/3-Fundamental-SQL-using-FUNCTION-and-GROUP-BY/4-Mini-Project/AnalisisPenjualanPart2.sql) | Analisis Penjualan Part 2 |
 
 # Hasil Belajarku
 Aku bangga dengan diriku sendiri! Dari modul Fundamental SQL Using FUNCTION and GROUP BY yang aku pelajari, aku telah memahami dan mampu mempraktikkan:

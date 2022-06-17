@@ -10,7 +10,7 @@ Struktur while pada python tidak berbeda jauh dengan bahasa pemrograman lainnya.
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python%20Fundamental%20for%20Data%20Science/4-Perulangan/1-while/While.py) | While |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python-Fundamental-for-Data-Science/4-Perulangan/While.py) | While |
 
 # For
 Struktur looping for pada python berbeda dengan struktur for pada umumnya. Pastikan untuk memperhatikan hal ini dengan baik.
@@ -19,7 +19,7 @@ Maksud dari fungsi for i in range (1,6) adalah, jika kita konversi pada JAVA ata
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python%20Fundamental%20for%20Data%20Science/4-Perulangan/2-for/For.py) | For |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python-Fundamental-for-Data-Science/4-Perulangan/For.py) | For |
 
 # for (2) with access element
 Keunikan lain dari looping dengan python adalah selain bahasa yang mudah dimengerti, kita juga bisa mengakses elemen yang terdapat pada sebuah list.
@@ -31,4 +31,4 @@ Keunikan lain dari looping dengan python adalah selain bahasa yang mudah dimenge
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python%20Fundamental%20for%20Data%20Science/4-Perulangan/3-for-with-access-element/TugasPraktek.py) | Tugas Praktik |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python-Fundamental-for-Data-Science/4-Perulangan/TugasPraktek.py) | Tugas Praktek |

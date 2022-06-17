@@ -12,7 +12,7 @@ Fungsi pada Python, dibuat dengan kata kunci def  kemudian diikuti dengan nama f
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python%20Fundamental%20for%20Data%20Science/5-Function/1-membuat-fungsi-sendiri/Function.py) | Membuat Fungsi |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python-Fundamental-for-Data-Science/5-Function/Function.py) | Membuat Fungsi |
 
 # Parameter pada fungsi
 Sekarang, bagaimana kalau kita ingin memberikan input nilai ke dalam fungsi? Kita bisa menggunakan parameter. Parameter adalah variabel yang menampung nilai untuk diproses kedalam suatu fungsi.
@@ -21,7 +21,7 @@ Sekarang, bagaimana kalau kita ingin memberikan input nilai ke dalam fungsi? Kit
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python%20Fundamental%20for%20Data%20Science/5-Function/2-parameter-pada-fungsi/FunctionParameter.py) | Parameter pada Fungsi |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python-Fundamental-for-Data-Science/5-Function/FunctionParameter.py) | Parameter pada Fungsi |
 
 # Fungsi dengan Return Value
 Fungsi yang tidak mengembalikan nilai biasanya disebut dengan prosedur. Namun, kadang kita butuh hasil proses dari fungsi untuk digunakan pada proses berikutnya. Maka fungsi harus mengembalikan nilai dari hasil pemrosesannya. Cara mengembalikan nilai adalah menggunakan kata kunci return lalu diikuti dengan nilai atau variabel yang akan dikembalikan.
@@ -30,4 +30,4 @@ Fungsi yang tidak mengembalikan nilai biasanya disebut dengan prosedur. Namun, k
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python%20Fundamental%20for%20Data%20Science/5-Function/3-fungsi-return-value/FunctionReturnValue.py) | Fungsi Return Value |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/1-Python-Fundamental-for-Data-Science/5-Function/FunctionReturnValue.py) | Fungsi Return Value |

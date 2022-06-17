@@ -58,7 +58,7 @@ Senja juga menunjukkan padaku Query dasar dan sederhana perintah SELECT yang ber
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental-SQL-using-SELECT-Statement/3-Penggunaan-Perintah-SELECT-FROM/MemanggilSeluruhKolom.sql) | Mengambil Seluruh Kolom |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental-SQL-using-SELECT-Statement/3-Penggunaan-Perintah-SELECT-FROM/MengambilSeluruhKolom.sql) | Mengambil Seluruh Kolom |
 
 # Mengambil Satu Kolom dari Tabel
 Aku sudah cukup paham dengan penjelasan Senja tadi. Tapi, masih ada satu yang mengganjal. “Bagaimana kalau aku hanya ingin menampilkan satu kolom saja dari suatu tabel/data, Nja?”
@@ -71,7 +71,9 @@ Aku sudah cukup paham dengan penjelasan Senja tadi. Tapi, masih ada satu yang me
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental%20SQL%20using%20SELECT%20Statement/3-Penggunaan%20Perintah%20SELECT%20...%20FROM/2-mengambil-satu-kolom.sql) | Mengambil Satu Kolom |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental-SQL-using-SELECT-Statement/3-Penggunaan-Perintah-SELECT-FROM/MengambilSatuKolom.sql) | Mengambil Satu Kolom |
+
+# Quiz
 
 ![Quiz](img/quiz-1.PNG)
 
@@ -95,7 +97,9 @@ Selain pembatasan kolom, aku bisa membatasi jumlah baris data yang diambil. Sepe
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental%20SQL%20using%20SELECT%20Statement/3-Penggunaan%20Perintah%20SELECT%20...%20FROM/4-membatasi-pengambilan-jumlah-row-data.sql) | Membatasi Pengambilan Jumlah Row Data |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental-SQL-using-SELECT-Statement/3-Penggunaan-Perintah-SELECT-FROM/MembatasiPengambilanJumlahRowData.sql) | Membatasi Pengambilan Jumlah Row Data |
+
+# Quiz
 
 ![Quiz](img/quiz-3.PNG)
 
@@ -107,7 +111,7 @@ Untuk menghilangkan data duplikasi, aku bisa menggunakan SELECT DISTINCT stateme
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental%20SQL%20using%20SELECT%20Statement/3-Penggunaan%20Perintah%20SELECT%20...%20FROM/5-select-distinct.sql) | Select Distinct |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental-SQL-using-SELECT-Statement/3-Penggunaan-Perintah-SELECT-FROM/SelectDistinct.sql) | Select Distinct |
 
 # Kesimpulan
 Aku mengambil catatanku, dan mulai menulis apa yang aku pelajari, sebelum aku melanjutkan belajarku:

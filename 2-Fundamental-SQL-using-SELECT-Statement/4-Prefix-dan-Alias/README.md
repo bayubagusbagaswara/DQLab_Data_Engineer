@@ -16,7 +16,9 @@ Gantilah seluruh code yang ada pada code editor dengan perintah SELECT untuk men
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental%20SQL%20using%20SELECT%20Statement/4-Prefix%20dan%20Alias/1-prefix-pada-nama-kolom.sql) | Prefix pada nama Kolom |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental-SQL-using-SELECT-Statement/4-Prefix-dan-Alias/PrefixPadaNamaKolom.sql) | Prefix pada Nama Kolom |
+
+# Quiz
 
 ![Quiz](img/quiz-1.PNG)
 
@@ -35,7 +37,9 @@ Coba ubah perintah SELECT di atas untuk mengubah nama kolom dengan details berik
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental%20SQL%20using%20SELECT%20Statement/4-Prefix%20dan%20Alias/2-alias-pada-kolom.sql) | Alias pada Kolom |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental-SQL-using-SELECT-Statement/4-Prefix-dan-Alias/AliasPadaKolom.sql) | Alias pada Kolom |
+
+# Quiz
 
 ![Quiz](img/quiz-2.PNG)
 
@@ -51,7 +55,9 @@ Ubah nama kolom dari tabel ms_produk tanpa menggunakan Alias:
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental%20SQL%20using%20SELECT%20Statement/4-Prefix%20dan%20Alias/3-menghilangkan-keyword-as.sql) | Menghilangkan keyword AS |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental-SQL-using-SELECT-Statement/4-Prefix-dan-Alias/MenghilangkanKeywordAs.sql) | Menghilangkan Keyword AS |
+
+# Quiz 
 
 ![Quiz](img/quiz-3.PNG)
 
@@ -66,7 +72,7 @@ Tampilkan kolom harga dari tabel ms_produk dengan nama alias harga_jual lengkap 
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental%20SQL%20using%20SELECT%20Statement/4-Prefix%20dan%20Alias/4-menggabungkan-prefix-dan-alias.sql) | Menggabungkan Prefix dan Alias |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental-SQL-using-SELECT-Statement/4-Prefix-dan-Alias/MenggabungkanPrefixDanAlias.sql) | Menggabungkan Prefix dan Alias |
 
 
 # Menggunakan Alias pada Tabel
@@ -81,7 +87,7 @@ Ganti nama tabel ms_produk menjadi t2 dan tampilkan seluruh isinya tanpa menggun
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental%20SQL%20using%20SELECT%20Statement/4-Prefix%20dan%20Alias/5-alias-pada-table.sql) | Alias pada Table |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental-SQL-using-SELECT-Statement/4-Prefix-dan-Alias/AliasPadaTable.sql) | Alias pada Table |
 
 # Prefix dengan Alias Tabel
 
@@ -94,7 +100,9 @@ Gantilah perintah pada code editor dengan nama alias t2 - tanpa menggunakan keyw
 
 |Code 	|               Title              	|
 |:----:	|:--------------------------------:	|
-| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental%20SQL%20using%20SELECT%20Statement/4-Prefix%20dan%20Alias/6-prefix-dengan-alias-table.sql) | Prefix dengan Alias pada Table |
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/2-Fundamental-SQL-using-SELECT-Statement/4-Prefix-dan-Alias/PrefixDenganAliasTable.sql) | Prefix dengan Alias pada Table |
+
+# Quiz
 
 ![Quiz](img/quiz-4.PNG)
 

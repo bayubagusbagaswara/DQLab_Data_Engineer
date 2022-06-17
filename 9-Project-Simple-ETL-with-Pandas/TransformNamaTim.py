@@ -1,10 +1,3 @@
-# Dataset saat ini belum memuat nama tim, dan rupanya dari tim Data Analyst membutuhkan informasi terkait nama tim dari masing-masing peserta.
-
-# Diketahui bahwa nama tim merupakan gabungan nilai dari kolom first_name, last_name, country dan institute.
-
-# Tugas Anda yakni buatlah kolom baru dengan nama team_name yang memuat informasi nama tim dari peserta.
-
-
 import pandas as pd
 df_participant = pd.read_csv(
     'https://storage.googleapis.com/dqlab-dataset/dqthon-participants.csv')

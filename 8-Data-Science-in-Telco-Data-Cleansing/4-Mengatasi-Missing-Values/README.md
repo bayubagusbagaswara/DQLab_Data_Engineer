@@ -32,6 +32,11 @@ Hasil yang diharapkan:
 
 ![Output2](img/missing-value-2.png)
 
+| Code  |               Title              	|
+|:----:	|:--------------------------------:	|
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/8-Data-Science-in-Telco-Data-Cleansing/4-Mengatasi-Missing-Values/MengatasiMissingValuesDenganPengisianNilaiTertentu.py) | Mengatasi Missing Values dengan Pengisian Nilai Tertentu |
+
+
 
 # Kesimpulan
 Setelah kita analisis lebih lanjut, ternyata masih ada missing values dari data yang kita sudah validkan Id Number pelanggannya. Missing values terdapat pada kolom `Churn`, `tenure`, `MonthlyCharges` & `TotalCharges`. Setelah kita tangani dengan cara penghapusan rows dan pengisian rows dengan nilai tertentu, terbukti sudah tidak ada missing values lagi pada data, terbukti dari jumlah missing values masing-masing variable yang bernilai 0. Selanjutnya kita akan melakukan penanganan pencilan (outlier).

@@ -154,9 +154,7 @@ Contoh penggunaan untuk dataset retail_raw:
 
 Mengingat output yang ditampilkan kaya akan penggunaan javascript, maka silakan klik tautan berikut ini untuk dibuka di tab baru browser kamu:
 
-```bash
-Retail_Profiling.html
-```
+[Retail_Profiling.html](https://storage.googleapis.com/dqlab-image/html/Retail%20Profiling.html)
 
 untuk melihat profiling report dari data frame retail_raw yang telah DQLab buatkan.
 

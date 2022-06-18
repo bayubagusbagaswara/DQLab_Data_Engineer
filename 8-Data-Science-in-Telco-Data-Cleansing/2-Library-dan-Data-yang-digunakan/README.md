@@ -2,9 +2,9 @@
 
 Pada analisis kali ini, akan digunakan beberapa package yang membantu kita dalam melakukan analisis data.
 
-Pandas
+1. Pandas
 
-1. Pandas (Python for Data Analysis) adalah library Python yang fokus untuk proses analisis data seperti manipulasi data, persiapan data, dan pembersihan data.
+Pandas (Python for Data Analysis) adalah library Python yang fokus untuk proses analisis data seperti manipulasi data, persiapan data, dan pembersihan data.
 
 - read_csv() digunakan untuk membaca file csv
 - str.match() digunakan untuk mencocokan dengan karakter tertentu
@@ -61,3 +61,25 @@ Untuk detail datanya adalah sebagai berikut:
 - `MonthlyCharges` The amount charged to the customer monthly
 - `TotalCharges` The total amount charged to the customer
 - `Churn` Whether the customer churned or not (Yes or No)
+
+# Import Library dan Dataset
+Berdasarkan penjelasan mengenai library dan dataset yang akan digunakan, sekarang hal pertama yang akan kita lakukan adalah melakukan import library dan dataset ke dalam workspace kita.
+
+Setelah dataset di-import ke dalam workspace, tampilkan jumlah kolom dan baris dari data set dengan menggunakan .shape dan print 5 baris teratas dengan menggunakan head() dan carilah ada berapa nilai customerID yang bersifat unique dengan menggunakan .unique
+
+```bash
+import pandas as pd
+pd.options.display.max_columns = 50
+
+df_load = pd.read_csv('https://storage.googleapis.com/dqlab-dataset/dqlab_telco.csv')
+```
+
+Notes:
+
+1. pd.options.display.max_columns = 50 digunakan untuk mempermudah penampilan row data
+
+2. Simpan dataset ke dalam variabel df_load
+
+| Code  |               Title              	|
+|:----:	|:--------------------------------:	|
+| [📜](https://github.com/bayubagusbagaswara/dqlab-data-engineer/blob/master/8-Data-Science-in-Telco-Data-Cleansing/2-Library-dan-Data-yang-digunakan/ImportLibraryDanDataset.py) | Import Library dan Dataset |

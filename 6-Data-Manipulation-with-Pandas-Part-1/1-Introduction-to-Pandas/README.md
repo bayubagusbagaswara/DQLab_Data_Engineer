@@ -164,6 +164,7 @@ Tugas praktek:
 # Quiz
 
 ![Quiz](img/quiz-1a.PNG)
+
 ![Quiz](img/quiz-1b.PNG)
 
 # Creating Series & Dataframe from List
